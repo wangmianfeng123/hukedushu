@@ -22,7 +22,7 @@
 		<key>AliyunLogProducer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>69</integer>
 		</dict>
 		<key>AliyunSlsObjc.xcscheme_^#shared#^_</key>
 		<dict>
@@ -87,7 +87,7 @@
 		<key>HappyDNS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>71</integer>
+			<integer>66</integer>
 		</dict>
 		<key>IGListKit.xcscheme_^#shared#^_</key>
 		<dict>
@@ -222,7 +222,7 @@
 		<key>Qiniu.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>70</integer>
 		</dict>
 		<key>Reachability.xcscheme_^#shared#^_</key>
 		<dict>
@@ -267,7 +267,7 @@
 		<key>SuperPlayer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>69</integer>
+			<integer>75</integer>
 		</dict>
 		<key>TBScrollViewEmpty.xcscheme_^#shared#^_</key>
 		<dict>
@@ -277,7 +277,7 @@
 		<key>TXLiteAVSDK_Player.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>70</integer>
+			<integer>67</integer>
 		</dict>
 		<key>TYAttributedLabel.xcscheme_^#shared#^_</key>
 		<dict>
@@ -302,27 +302,27 @@
 		<key>UMAPM.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>72</integer>
+			<integer>71</integer>
 		</dict>
 		<key>UMCCommonLog.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>72</integer>
 		</dict>
 		<key>UMCommon.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>74</integer>
+			<integer>73</integer>
 		</dict>
 		<key>UMDevice.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>68</integer>
 		</dict>
 		<key>UMShare.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>74</integer>
 		</dict>
 		<key>UMengAnalytics.xcscheme_^#shared#^_</key>
 		<dict>
