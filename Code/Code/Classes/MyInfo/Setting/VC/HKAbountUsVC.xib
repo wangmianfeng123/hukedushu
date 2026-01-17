@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HKAbountUsVC">
+            <connections>
+                <outlet property="huLabel" destination="KLd-1p-4mp" id="jw7-WE-U8x"/>
+                <outlet property="logoIV" destination="8S2-Vq-aLF" id="c7f-L4-HJm"/>
+                <outlet property="logoTopConstraint" destination="VSt-de-nCH" id="IAp-KK-X5I"/>
+                <outlet property="phoneLabel" destination="Rce-RX-53T" id="ywR-tg-aGn"/>
+                <outlet property="titleLB" destination="MEU-lb-VVr" id="qm3-Q3-wcW"/>
+                <outlet property="versonLB" destination="EDq-a4-glN" id="eTD-ge-gY4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="setting_abount_us_logo" translatesAutoresizingMaskIntoConstraints="NO" id="8S2-Vq-aLF">
+                    <rect key="frame" x="150" y="90" width="75" height="75"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="75" id="Q4M-nT-3PR"/>
+                        <constraint firstAttribute="width" constant="75" id="wfd-w1-rKN"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学设计，上虎课网" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEU-lb-VVr">
+                    <rect key="frame" x="130.5" y="195" width="114.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="版本号：4.3.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDq-a4-glN">
+                    <rect key="frame" x="142" y="235" width="91" height="17"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpz-qx-TF6">
+                    <rect key="frame" x="126.5" y="319.5" width="122" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="《虎课APP用户协议》">
+                        <color key="titleColor" red="0.0" green="0.47843137254901957" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="agreementBtnClick" destination="-1" eventType="touchUpInside" id="8HJ-b0-nBq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOI-ir-Ecl">
+                    <rect key="frame" x="126.5" y="367.5" width="122" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="《虎课APP隐私政策》">
+                        <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="privacyBtnClick" destination="-1" eventType="touchUpInside" id="G5L-gM-2kf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rce-RX-53T">
+                    <rect key="frame" x="172.5" y="593" width="30" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.1529411765" green="0.1960784314" blue="0.2470588235" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="contactPhoneClick" destination="-1" eventType="touchUpInside" id="yRq-aD-Hmq"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="沪ICP备16036948号-7A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLd-1p-4mp">
+                    <rect key="frame" x="111.5" y="631" width="152" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXP-Ra-0s6"/>
+            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MEU-lb-VVr" firstAttribute="top" secondItem="8S2-Vq-aLF" secondAttribute="bottom" constant="30" id="8Wz-ks-KmK"/>
+                <constraint firstItem="VXP-Ra-0s6" firstAttribute="bottom" secondItem="KLd-1p-4mp" secondAttribute="bottom" constant="20" id="Chi-v3-kX1"/>
+                <constraint firstItem="EDq-a4-glN" firstAttribute="top" secondItem="MEU-lb-VVr" secondAttribute="bottom" constant="23" id="FF4-P5-Isk"/>
+                <constraint firstItem="EDq-a4-glN" firstAttribute="centerX" secondItem="MEU-lb-VVr" secondAttribute="centerX" id="HI1-7e-hIu"/>
+                <constraint firstItem="KLd-1p-4mp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="IYg-ZF-hrY"/>
+                <constraint firstItem="KLd-1p-4mp" firstAttribute="top" secondItem="Rce-RX-53T" secondAttribute="bottom" constant="10" id="Oo7-bH-5xd"/>
+                <constraint firstItem="qpz-qx-TF6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PGl-N6-yeu"/>
+                <constraint firstItem="qpz-qx-TF6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="T33-Ms-ETt"/>
+                <constraint firstItem="8S2-Vq-aLF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="VSt-de-nCH"/>
+                <constraint firstItem="IOI-ir-Ecl" firstAttribute="top" secondItem="qpz-qx-TF6" secondAttribute="bottom" constant="20" id="a4Z-74-wX2"/>
+                <constraint firstItem="8S2-Vq-aLF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bTo-BI-wlA"/>
+                <constraint firstItem="MEU-lb-VVr" firstAttribute="centerX" secondItem="8S2-Vq-aLF" secondAttribute="centerX" id="pfI-Fi-gnb"/>
+                <constraint firstItem="Rce-RX-53T" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="up7-Y2-s5Y"/>
+                <constraint firstItem="IOI-ir-Ecl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xzd-vj-nya"/>
+            </constraints>
+            <point key="canvasLocation" x="136.80000000000001" y="152.47376311844079"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="setting_abount_us_logo" width="69" height="69"/>
+    </resources>
+</document>

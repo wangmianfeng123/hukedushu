@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="HKTeacherDouYinCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="384"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="384"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LVb-cK-KcN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="384"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_shortvideo_black_v2_10" translatesAutoresizingMaskIntoConstraints="NO" id="TlT-7e-1Iw">
+                        <rect key="frame" x="0.0" y="322" width="320" height="62"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="62" id="U8c-6a-DWB"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zO8-aa-8Ej">
+                        <rect key="frame" x="15" y="363" width="53" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <inset key="imageEdgeInsets" minX="-8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="Button" image="ic_video_v2_10"/>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LVb-cK-KcN" secondAttribute="bottom" id="4pU-Wr-mdE"/>
+                <constraint firstItem="LVb-cK-KcN" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ECd-y7-FuB"/>
+                <constraint firstAttribute="trailing" secondItem="TlT-7e-1Iw" secondAttribute="trailing" id="EIT-bM-EoU"/>
+                <constraint firstAttribute="trailing" secondItem="LVb-cK-KcN" secondAttribute="trailing" id="NXx-C1-F6L"/>
+                <constraint firstItem="zO8-aa-8Ej" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="SfW-MK-BqD"/>
+                <constraint firstAttribute="bottom" secondItem="zO8-aa-8Ej" secondAttribute="bottom" constant="4" id="VPv-XZ-pek"/>
+                <constraint firstItem="TlT-7e-1Iw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="h9l-2r-daK"/>
+                <constraint firstItem="LVb-cK-KcN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="juh-dx-awP"/>
+                <constraint firstAttribute="bottom" secondItem="TlT-7e-1Iw" secondAttribute="bottom" id="uBU-W1-08K"/>
+            </constraints>
+            <size key="customSize" width="320" height="384"/>
+            <connections>
+                <outlet property="browseCount" destination="zO8-aa-8Ej" id="iZP-Ju-K1y"/>
+                <outlet property="imageView" destination="LVb-cK-KcN" id="bHS-YR-zFJ"/>
+            </connections>
+            <point key="canvasLocation" x="134.40000000000001" y="246.47676161919043"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bg_shortvideo_black_v2_10" width="110" height="52"/>
+        <image name="ic_video_v2_10" width="8" height="9"/>
+    </resources>
+</document>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17506"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKMessageCenterMenu">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kUr-C4-3UC">
+                    <rect key="frame" x="125" y="0.0" width="125" height="40"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZY-y7-g1w">
+                    <rect key="frame" x="250" y="0.0" width="125" height="40"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5YI-bV-T8n">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="40"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="kUr-C4-3UC" firstAttribute="leading" secondItem="5YI-bV-T8n" secondAttribute="trailing" id="0E8-7M-tzP"/>
+                <constraint firstItem="kUr-C4-3UC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="8j1-OH-RwL"/>
+                <constraint firstItem="kUr-C4-3UC" firstAttribute="width" secondItem="5YI-bV-T8n" secondAttribute="width" id="EG4-Ix-phi"/>
+                <constraint firstAttribute="bottom" secondItem="kUr-C4-3UC" secondAttribute="bottom" id="Ebi-ZZ-zUC"/>
+                <constraint firstItem="5YI-bV-T8n" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FPV-Vw-PwV"/>
+                <constraint firstItem="5YI-bV-T8n" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="HaS-Ag-Sq7"/>
+                <constraint firstAttribute="bottom" secondItem="tZY-y7-g1w" secondAttribute="bottom" id="MPd-Mc-FDx"/>
+                <constraint firstAttribute="trailing" secondItem="tZY-y7-g1w" secondAttribute="trailing" id="NJ7-ny-WXU"/>
+                <constraint firstItem="tZY-y7-g1w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="QvF-zd-k4J"/>
+                <constraint firstAttribute="bottom" secondItem="5YI-bV-T8n" secondAttribute="bottom" id="arh-Mi-L55"/>
+                <constraint firstItem="tZY-y7-g1w" firstAttribute="leading" secondItem="kUr-C4-3UC" secondAttribute="trailing" id="eh6-Yk-T2D"/>
+                <constraint firstItem="tZY-y7-g1w" firstAttribute="width" secondItem="5YI-bV-T8n" secondAttribute="width" id="k5Y-j8-aik"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="144.20289855072465" y="400.44642857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

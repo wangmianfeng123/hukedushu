@@ -1,0 +1,6 @@
+framework module TBScrollViewEmpty {
+  umbrella header "TBScrollViewEmpty-umbrella.h"
+
+  export *
+  module * { export * }
+}

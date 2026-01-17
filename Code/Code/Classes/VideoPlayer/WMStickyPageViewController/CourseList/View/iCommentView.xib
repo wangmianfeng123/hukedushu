@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="iCommentView">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popover_comment_2.30" translatesAutoresizingMaskIntoConstraints="NO" id="bPI-Yn-kCY">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="cNd-E2-vU7"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_comment_2.30" translatesAutoresizingMaskIntoConstraints="NO" id="Ryo-e7-eIG">
+                    <rect key="frame" x="15" y="30" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Ryo-e7-eIG" secondAttribute="height" id="fMs-Zc-Ewi"/>
+                        <constraint firstAttribute="width" constant="50" id="kpb-ZA-xUc"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bPI-Yn-kCY" secondAttribute="trailing" id="1aI-eB-0UF"/>
+                <constraint firstItem="bPI-Yn-kCY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Kgb-qE-t2a"/>
+                <constraint firstItem="bPI-Yn-kCY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mwb-jt-Bfb"/>
+                <constraint firstItem="Ryo-e7-eIG" firstAttribute="top" secondItem="bPI-Yn-kCY" secondAttribute="bottom" id="lKH-0H-6lO"/>
+                <constraint firstItem="Ryo-e7-eIG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yCw-4l-foW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="iconImgV" destination="Ryo-e7-eIG" id="J83-w6-Y4K"/>
+                <outlet property="tipImgV" destination="bPI-Yn-kCY" id="RNM-Yd-Stm"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_comment_2.30" width="48" height="48"/>
+        <image name="popover_comment_2.30" width="81" height="30.5"/>
+    </resources>
+</document>

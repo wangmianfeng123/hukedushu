@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKFiltrateView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTb-Kx-P1O">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view tag="100" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tO-V1-Jbl">
+                    <rect key="frame" x="41.5" y="0.0" width="372.5" height="896"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="筛选" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syQ-14-sxS">
+                            <rect key="frame" x="35" y="44" width="31" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="5wR-L2-AeW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e0U-VP-QHL">
+                            <rect key="frame" x="0.0" y="818" width="372.5" height="44"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbo-Yy-FWc">
+                                    <rect key="frame" x="0.0" y="0.0" width="186" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="重置">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="resrtBtnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="5dz-ja-bFn"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8os-md-V6K">
+                                    <rect key="frame" x="186" y="0.0" width="186.5" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <state key="normal" title="确定">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="sureBtnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="rVP-Mf-MGR"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="8os-md-V6K" firstAttribute="leading" secondItem="Hbo-Yy-FWc" secondAttribute="trailing" id="3Za-29-AM8"/>
+                                <constraint firstAttribute="bottom" secondItem="8os-md-V6K" secondAttribute="bottom" id="58q-zp-uQk"/>
+                                <constraint firstAttribute="bottom" secondItem="Hbo-Yy-FWc" secondAttribute="bottom" id="6AO-rt-Nf5"/>
+                                <constraint firstAttribute="trailing" secondItem="8os-md-V6K" secondAttribute="trailing" id="GUq-vG-KLa"/>
+                                <constraint firstItem="8os-md-V6K" firstAttribute="top" secondItem="e0U-VP-QHL" secondAttribute="top" id="JZi-OB-ZDM"/>
+                                <constraint firstItem="Hbo-Yy-FWc" firstAttribute="top" secondItem="e0U-VP-QHL" secondAttribute="top" id="O5z-lR-nNq"/>
+                                <constraint firstItem="8os-md-V6K" firstAttribute="width" secondItem="Hbo-Yy-FWc" secondAttribute="width" id="elh-r1-ArT"/>
+                                <constraint firstItem="Hbo-Yy-FWc" firstAttribute="leading" secondItem="e0U-VP-QHL" secondAttribute="leading" id="f7c-Ru-NHw"/>
+                                <constraint firstAttribute="height" constant="44" id="rke-3p-Afr"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="syQ-14-sxS" firstAttribute="leading" secondItem="1tO-V1-Jbl" secondAttribute="leading" constant="35" id="1vB-7R-7r4"/>
+                        <constraint firstItem="e0U-VP-QHL" firstAttribute="leading" secondItem="1tO-V1-Jbl" secondAttribute="leading" id="gHp-PX-VBG"/>
+                        <constraint firstAttribute="trailing" secondItem="e0U-VP-QHL" secondAttribute="trailing" id="iIb-ps-8yS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Qt5-sV-S1j"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="bTb-Kx-P1O" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0h2-zB-50K"/>
+                <constraint firstAttribute="bottom" secondItem="1tO-V1-Jbl" secondAttribute="bottom" id="0xc-BA-zp0"/>
+                <constraint firstItem="syQ-14-sxS" firstAttribute="top" secondItem="Qt5-sV-S1j" secondAttribute="top" id="Fnj-SC-giP"/>
+                <constraint firstItem="1tO-V1-Jbl" firstAttribute="trailing" secondItem="Qt5-sV-S1j" secondAttribute="trailing" id="GDr-Hd-oVh"/>
+                <constraint firstAttribute="bottom" secondItem="bTb-Kx-P1O" secondAttribute="bottom" id="JXn-25-nPK"/>
+                <constraint firstAttribute="trailing" secondItem="bTb-Kx-P1O" secondAttribute="trailing" id="LFG-9g-cSZ"/>
+                <constraint firstItem="1tO-V1-Jbl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N26-k8-tus"/>
+                <constraint firstItem="bTb-Kx-P1O" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="NrY-2r-b0N"/>
+                <constraint firstItem="1tO-V1-Jbl" firstAttribute="width" secondItem="bTb-Kx-P1O" secondAttribute="width" multiplier="0.9" id="dME-L1-i7C"/>
+                <constraint firstItem="e0U-VP-QHL" firstAttribute="bottom" secondItem="Qt5-sV-S1j" secondAttribute="bottom" id="gKE-UF-exA"/>
+            </constraints>
+            <connections>
+                <outlet property="bgView" destination="bTb-Kx-P1O" id="s9m-M2-CmG"/>
+                <outlet property="bottomView" destination="e0U-VP-QHL" id="e3E-qC-Gow"/>
+                <outlet property="menuView" destination="1tO-V1-Jbl" id="o2Y-Du-8sm"/>
+                <outlet property="rightMargin" destination="GDr-Hd-oVh" id="4a8-oP-L9z"/>
+                <outlet property="shaiBtn" destination="syQ-14-sxS" id="guB-5v-pw9"/>
+                <outlet property="sureBtn" destination="8os-md-V6K" id="bKI-HU-Dk4"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

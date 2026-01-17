@@ -1,0 +1,13 @@
+//
+//  HKMyCollectionVC.h
+//  Code
+//
+//  Created by Ivan li on 2018/3/2.
+//  Copyright © 2018年 pg. All rights reserved.
+//
+
+#import "WMPageControllerTool.h"
+
+@interface HKMyCollectionVC : WMPageControllerTool
+
+@end

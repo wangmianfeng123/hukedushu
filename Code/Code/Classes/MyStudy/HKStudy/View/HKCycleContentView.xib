@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKCycleContentView">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HK_PlaceImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="Usn-yT-0SL">
+                    <rect key="frame" x="0.0" y="-1" width="91.5" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Usn-yT-0SL" secondAttribute="height" multiplier="18:11" id="1kW-Fh-D3m"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plv_img_default_avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="xjl-ft-DH5">
+                    <rect key="frame" x="101.5" y="7.5" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="QyT-Vq-5EQ"/>
+                        <constraint firstAttribute="width" secondItem="xjl-ft-DH5" secondAttribute="height" multiplier="1:1" id="yJn-i6-jfl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCq-r2-RJp">
+                    <rect key="frame" x="280" y="17.5" width="50" height="20"/>
+                    <color key="backgroundColor" red="0.23921568627450979" green="0.54509803921568623" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="Nc0-j1-RrB"/>
+                        <constraint firstAttribute="width" constant="50" id="WHY-HS-gCp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="去看看"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="lookBtnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="Ig1-rC-zud"/>
+                    </connections>
+                </button>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="泡芙胖胖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MfF-YD-O6U">
+                    <rect key="frame" x="151.5" y="13.5" width="49.5" height="14.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PS是怎样炼成的的成的的…" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0t-CR-lcf">
+                    <rect key="frame" x="151.5" y="28" width="123.5" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.4823529411764706" green="0.50588235294117645" blue="0.58823529411764708" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97647058823529409" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="tCq-r2-RJp" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="0pv-4T-CiM"/>
+                <constraint firstItem="xjl-ft-DH5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="2az-Ko-i86"/>
+                <constraint firstItem="xjl-ft-DH5" firstAttribute="leading" secondItem="Usn-yT-0SL" secondAttribute="trailing" constant="10" id="GeC-FH-Gl0"/>
+                <constraint firstItem="s0t-CR-lcf" firstAttribute="leading" secondItem="MfF-YD-O6U" secondAttribute="leading" id="I7t-uo-Edq"/>
+                <constraint firstItem="MfF-YD-O6U" firstAttribute="top" secondItem="xjl-ft-DH5" secondAttribute="top" constant="6" id="QhT-QI-biB"/>
+                <constraint firstAttribute="bottom" secondItem="Usn-yT-0SL" secondAttribute="bottom" id="i0n-qm-L0s"/>
+                <constraint firstAttribute="trailing" secondItem="tCq-r2-RJp" secondAttribute="trailing" constant="15" id="iQ2-4G-1oj"/>
+                <constraint firstItem="MfF-YD-O6U" firstAttribute="leading" secondItem="xjl-ft-DH5" secondAttribute="trailing" constant="10" id="m1P-V4-hkj"/>
+                <constraint firstItem="s0t-CR-lcf" firstAttribute="top" secondItem="MfF-YD-O6U" secondAttribute="bottom" id="y3y-mt-TUz"/>
+                <constraint firstItem="tCq-r2-RJp" firstAttribute="leading" secondItem="s0t-CR-lcf" secondAttribute="trailing" constant="5" id="yG0-kU-Kak"/>
+                <constraint firstItem="Usn-yT-0SL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yhx-XG-IKT"/>
+                <constraint firstItem="Usn-yT-0SL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-1" id="yun-Hm-7fQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="descLabel" destination="s0t-CR-lcf" id="734-o0-U9k"/>
+                <outlet property="headerImgView" destination="xjl-ft-DH5" id="EzI-Tj-1uI"/>
+                <outlet property="leftImgView" destination="Usn-yT-0SL" id="GPr-zd-Vc4"/>
+                <outlet property="nameLabel" destination="MfF-YD-O6U" id="2T2-2b-gCY"/>
+            </connections>
+            <point key="canvasLocation" x="131.15942028985509" y="-19.084821428571427"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="HK_PlaceImage.png" width="160" height="98"/>
+        <image name="plv_img_default_avatar.png" width="35" height="35"/>
+    </resources>
+</document>

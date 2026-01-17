@@ -1,0 +1,122 @@
+{
+    "TS_data":    [
+                     {
+                   "children" :  [
+                                                {
+                                                "name" : "虎课",
+                                                  "title" : "虎课",
+                                                  "master_video_total": "30",
+                                                  "slave_video_total" : "220",
+                                                  "study_num" : "23",
+                                                  "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                  "video_id" :"17",
+                                                  "avatar" : "https://js.huke88.com/assets/revision/images/app/share-banner.png!/format/webp"
+                                  
+                                                  },
+                                                  {
+                                                  "title" : "虎课2",
+                                                  "name" : "虎课2",
+                                                  "master_video_total": "30",
+                                                  "slave_video_total" : "220",
+                                                  "study_num" : "23",
+                                                  "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                  "video_id" :"17",
+                                                  "avatar" : "https://js.huke88.com/assets/revision/images/app/share-banner.png!/format/webp"
+                                                  },
+                                                  {
+                                                  "title" : "虎课2",
+                                                  "name" : "虎课2",
+                                                  "master_video_total": "30",
+                                                  "slave_video_total" : "220",
+                                                  "study_num" : "23",
+                                                  "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                  "video_id" :"17",
+                                                  "avatar" : "https://pic.huke88.com/video/cover/2018-03-21/5893BB88-310D-A125-57CF-E6091DED05CB.jpg!/fw/432/format/webp"
+                                                  },
+                                                  {
+                                                  "title" : "虎课2",
+                                                  "name" : "虎课2",
+                                                  "master_video_total": "30",
+                                                  "slave_video_total" : "220",
+                                                  "study_num" : "23",
+                                                  "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                  "video_id" :"17",
+                                                  "avatar" : "https://js.huke88.com/assets/revision/images/app/share-banner.png!/format/webp"
+                                                  }
+                                    ],
+                         "title" : "虎课2",
+                        "avatar" : "https://pic.huke88.com/video/cover/2018-04-26/941CD270-2A81-83A0-791D-AF457808C1BD.jpg!/fw/432/format/webp"
+                     },
+                     {
+                         "children" :  [
+                                                 {
+                                                 "title" : "虎课3",
+                                                 "name" : "虎课3",
+                                                "master_video_total": "30",
+                                                "slave_video_total" : "220",
+                                                "study_num" : "23",
+                                                "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                "video_id" :"17",
+                                                 "avatar" : "https://pic.huke88.com/video/cover/2018-03-21/5893BB88-310D-A125-57CF-E6091DED05CB.jpg!/fw/432/format/webp"
+                                                 },
+                                                 {
+                                                 "title" : "虎课3",
+                                                 "name" : "虎课3",
+                                                "master_video_total": "30",
+                                                "slave_video_total" : "220",
+                                                "study_num" : "23",
+                                                "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                "video_id" :"17",
+                                                 "avatar" : "https://js.huke88.com/assets/revision/images/app/share-banner.png!/format/webp"
+                                                },
+                                                {
+                                                "title" : "虎课1",
+                                                "name" : "虎课1",
+                                                "master_video_total": "30",
+                                                "slave_video_total" : "220",
+                                                "study_num" : "23",
+                                                "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                "video_id" :"17",
+                                                "avatar" : "https://pic.huke88.com/video/cover/2018-03-21/5893BB88-310D-A125-57CF-E6091DED05CB.jpg!/fw/432/format/webp"
+                                                },
+                                                {
+                                                "title" : "虎课1",
+                                                "name" : "虎课1",
+                                                "master_video_total": "30",
+                                                "slave_video_total" : "220",
+                                                "study_num" : "23",
+                                                "small_img_url": "https://js.huke88.com/assets/revision/images/app/ps@3x.png",
+                                                "video_id" :"17",
+                                                "avatar" : "https://js.huke88.com/assets/revision/images/app/share-banner.png!/format/webp"
+                                                }
+                                                 ],
+                         "title" : "虎课3",
+                     }
+                     ]
+}
+
+
+
+
+
+
+
+
+
+
+
+{ "applinks":
+    { "apps": [],
+        "details":
+        [
+            {
+                "appID": "JJMF498F33.com.cainiu.HuKeWang",
+                "paths": [ "/wwdc/news/", "/videos/wwdc/2015/*"]
+            },
+            { "appID": "JJMF498F33.com.cainiu.HuKeWang",
+                "paths": [ "*" ]
+                
+            }
+        ]
+    }
+}

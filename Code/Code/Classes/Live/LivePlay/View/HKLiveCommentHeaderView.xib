@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKLiveCommentHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6L-14-NeC">
+                    <rect key="frame" x="40" y="35" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                    <color key="textColor" red="1" green="0.47058823529999999" blue="0.12549019610000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MKJ-N7-XCH">
+                    <rect key="frame" x="65" y="10" width="230" height="25"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="pPe-Qy-lTS"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cG-6C-3ir">
+                    <rect key="frame" x="65" y="38" width="0.0" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.6588235294" green="0.6705882353" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NaB-1L-5CL">
+                    <rect key="frame" x="305" y="17" width="30" height="18"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="满分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RqD-U6-Pk1">
+                    <rect key="frame" x="306.5" y="35" width="27" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.6588235294117647" green="0.6705882352941176" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k1I-x2-tJE">
+                    <rect key="frame" x="0.0" y="69" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Lls-1x-Ajs"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8cG-6C-3ir" firstAttribute="leading" secondItem="MKJ-N7-XCH" secondAttribute="leading" id="31j-wM-gNd"/>
+                <constraint firstItem="MKJ-N7-XCH" firstAttribute="leading" secondItem="Y6L-14-NeC" secondAttribute="trailing" constant="25" id="5bN-ve-Sxi"/>
+                <constraint firstAttribute="trailing" secondItem="MKJ-N7-XCH" secondAttribute="trailing" constant="80" id="9nU-WY-T4l"/>
+                <constraint firstAttribute="trailing" secondItem="k1I-x2-tJE" secondAttribute="trailing" id="ASc-eG-C8O"/>
+                <constraint firstItem="Y6L-14-NeC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="40" id="Hwh-e4-nNP"/>
+                <constraint firstItem="8cG-6C-3ir" firstAttribute="top" secondItem="MKJ-N7-XCH" secondAttribute="bottom" constant="3" id="MzR-bJ-MDz"/>
+                <constraint firstItem="NaB-1L-5CL" firstAttribute="bottom" secondItem="MKJ-N7-XCH" secondAttribute="bottom" id="Qb7-Uy-l9v"/>
+                <constraint firstItem="Y6L-14-NeC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Zs8-cM-qPz"/>
+                <constraint firstItem="RqD-U6-Pk1" firstAttribute="top" secondItem="NaB-1L-5CL" secondAttribute="bottom" id="g36-cc-3m0"/>
+                <constraint firstAttribute="trailing" secondItem="NaB-1L-5CL" secondAttribute="trailing" constant="40" id="pys-yZ-8Bc"/>
+                <constraint firstItem="MKJ-N7-XCH" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="centerY" id="q4E-DT-F49"/>
+                <constraint firstAttribute="bottom" secondItem="k1I-x2-tJE" secondAttribute="bottom" id="rCN-T6-2U3"/>
+                <constraint firstItem="RqD-U6-Pk1" firstAttribute="centerX" secondItem="NaB-1L-5CL" secondAttribute="centerX" id="rlw-IS-8OA"/>
+                <constraint firstItem="k1I-x2-tJE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zV6-ke-nGi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentCountLabel" destination="8cG-6C-3ir" id="kEI-6b-aRH"/>
+                <outlet property="scoreLabel" destination="Y6L-14-NeC" id="SFW-iS-11J"/>
+                <outlet property="starView" destination="MKJ-N7-XCH" id="NWp-kp-qgu"/>
+            </connections>
+            <point key="canvasLocation" x="74.637681159420296" y="234.375"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKReplyMessageView">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oxm-Pl-RcO">
+                    <rect key="frame" x="17.5" y="6" width="45.5" height="30"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_massage" translatesAutoresizingMaskIntoConstraints="NO" id="od2-hv-NIc">
+                            <rect key="frame" x="8" y="7.5" width="17" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="2UJ-U9-XJP"/>
+                                <constraint firstAttribute="width" constant="17" id="yDs-nf-PCJ"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0n4-9n-9Yv">
+                            <rect key="frame" x="29" y="7" width="8.5" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.97254901959999995" green="0.97647058819999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.47058823529411764" blue="0.12549019607843137" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="J1I-wE-wv2"/>
+                        <constraint firstAttribute="trailing" secondItem="0n4-9n-9Yv" secondAttribute="trailing" constant="8" id="QFL-l9-Rhk"/>
+                        <constraint firstItem="od2-hv-NIc" firstAttribute="centerY" secondItem="oxm-Pl-RcO" secondAttribute="centerY" id="R54-Tw-aKy"/>
+                        <constraint firstItem="0n4-9n-9Yv" firstAttribute="leading" secondItem="od2-hv-NIc" secondAttribute="trailing" constant="4" id="RtC-us-glP"/>
+                        <constraint firstItem="od2-hv-NIc" firstAttribute="leading" secondItem="oxm-Pl-RcO" secondAttribute="leading" constant="8" id="a26-02-odO"/>
+                        <constraint firstItem="0n4-9n-9Yv" firstAttribute="centerY" secondItem="od2-hv-NIc" secondAttribute="centerY" id="xGc-6Q-Mre"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_message" translatesAutoresizingMaskIntoConstraints="NO" id="vbZ-Fm-xQv">
+                    <rect key="frame" x="37" y="36" width="6" height="4"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="6" id="2rc-zA-e6Q"/>
+                        <constraint firstAttribute="height" constant="4" id="sLB-7N-D4n"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vbZ-Fm-xQv" secondAttribute="bottom" id="1Ui-vN-Cfh"/>
+                <constraint firstItem="oxm-Pl-RcO" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Hen-Q6-18u"/>
+                <constraint firstItem="vbZ-Fm-xQv" firstAttribute="top" secondItem="oxm-Pl-RcO" secondAttribute="bottom" id="fRf-pR-SQp"/>
+                <constraint firstItem="vbZ-Fm-xQv" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="tH9-Od-XoQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="messageCountLabel" destination="0n4-9n-9Yv" id="xDb-Ie-P9V"/>
+            </connections>
+            <point key="canvasLocation" x="192.75362318840581" y="373.66071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_massage" width="17" height="17"/>
+        <image name="img_message" width="6" height="3.5"/>
+    </resources>
+</document>

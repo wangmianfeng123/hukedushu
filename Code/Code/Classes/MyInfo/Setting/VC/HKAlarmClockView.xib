@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKAlarmClockView">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="191"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ncp-7W-fza">
+                    <rect key="frame" x="100" y="14" width="234" height="30"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="小虎会每天定时" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpF-sF-JQC">
+                            <rect key="frame" x="0.0" y="0.0" width="107.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.011764705882352941" green="0.011764705882352941" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99f-HD-bnf">
+                            <rect key="frame" x="112.5" y="0.0" width="55" height="30"/>
+                            <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="55" id="EV8-4H-pLJ"/>
+                            </constraints>
+                            <state key="normal" title="11:00">
+                                <color key="titleColor" red="0.1529411765" green="0.1960784314" blue="0.2470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="timeBtnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="gee-XR-x0t"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提醒您哦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OUB-vh-PDc">
+                            <rect key="frame" x="172.5" y="0.0" width="61.5" height="30"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="4zC-c5-tuP"/>
+                        <constraint firstItem="99f-HD-bnf" firstAttribute="top" secondItem="Ncp-7W-fza" secondAttribute="top" id="NSg-sS-thh"/>
+                        <constraint firstItem="gpF-sF-JQC" firstAttribute="leading" secondItem="Ncp-7W-fza" secondAttribute="leading" id="QNH-wa-BTs"/>
+                        <constraint firstItem="OUB-vh-PDc" firstAttribute="top" secondItem="Ncp-7W-fza" secondAttribute="top" id="a8L-Ze-a0x"/>
+                        <constraint firstItem="gpF-sF-JQC" firstAttribute="top" secondItem="Ncp-7W-fza" secondAttribute="top" id="ck6-hG-t39"/>
+                        <constraint firstAttribute="bottom" secondItem="99f-HD-bnf" secondAttribute="bottom" id="f2D-jE-d9e"/>
+                        <constraint firstAttribute="bottom" secondItem="gpF-sF-JQC" secondAttribute="bottom" id="gMf-ZC-I9L"/>
+                        <constraint firstAttribute="trailing" secondItem="OUB-vh-PDc" secondAttribute="trailing" id="i5c-Og-TJA"/>
+                        <constraint firstItem="99f-HD-bnf" firstAttribute="leading" secondItem="gpF-sF-JQC" secondAttribute="trailing" constant="5" id="m29-KQ-TRv"/>
+                        <constraint firstItem="OUB-vh-PDc" firstAttribute="leading" secondItem="99f-HD-bnf" secondAttribute="trailing" constant="5" id="osz-Mx-f3M"/>
+                        <constraint firstAttribute="bottom" secondItem="OUB-vh-PDc" secondAttribute="bottom" id="uh7-Vu-kXH"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vO7-jj-Kmp">
+                    <rect key="frame" x="100" y="49" width="234" height="25"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY9-lS-gcF">
+                            <rect key="frame" x="0.0" y="2.5" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="PxP-h9-6Qc"/>
+                                <constraint firstAttribute="width" secondItem="jY9-lS-gcF" secondAttribute="height" id="e3a-Cg-eoa"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ic_notice_nor"/>
+                            <connections>
+                                <action selector="tipSwithchBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="s4h-sQ-l0t"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不再提醒" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PlN-Ix-hKM">
+                            <rect key="frame" x="22.5" y="0.0" width="57.5" height="25"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.6588235294117647" green="0.68627450980392157" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="jY9-lS-gcF" firstAttribute="leading" secondItem="vO7-jj-Kmp" secondAttribute="leading" id="0Pl-ph-vEs"/>
+                        <constraint firstAttribute="bottom" secondItem="PlN-Ix-hKM" secondAttribute="bottom" id="6Tl-oD-JEl"/>
+                        <constraint firstAttribute="height" constant="25" id="BRl-8Z-hkz"/>
+                        <constraint firstItem="PlN-Ix-hKM" firstAttribute="leading" secondItem="jY9-lS-gcF" secondAttribute="trailing" constant="2.5" id="Epd-fS-U9s"/>
+                        <constraint firstItem="PlN-Ix-hKM" firstAttribute="top" secondItem="vO7-jj-Kmp" secondAttribute="top" id="FlW-Pu-2Pl"/>
+                        <constraint firstItem="jY9-lS-gcF" firstAttribute="centerY" secondItem="vO7-jj-Kmp" secondAttribute="centerY" id="Sgg-DX-RlY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="Ncp-7W-fza" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="9zk-ob-7sL"/>
+                <constraint firstItem="Ncp-7W-fza" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="C2q-SV-KUu"/>
+                <constraint firstItem="vO7-jj-Kmp" firstAttribute="top" secondItem="Ncp-7W-fza" secondAttribute="bottom" constant="5" id="DFg-kn-3p3"/>
+                <constraint firstItem="vO7-jj-Kmp" firstAttribute="leading" secondItem="Ncp-7W-fza" secondAttribute="leading" id="YfQ-mV-6T3"/>
+                <constraint firstItem="vO7-jj-Kmp" firstAttribute="trailing" secondItem="Ncp-7W-fza" secondAttribute="trailing" id="sBc-UI-81m"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="SwithchBtn" destination="jY9-lS-gcF" id="T9n-mS-2GR"/>
+                <outlet property="timeBtn" destination="99f-HD-bnf" id="NCr-cw-IqS"/>
+            </connections>
+            <point key="canvasLocation" x="146.37681159420291" y="388.72767857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_notice_nor" width="17" height="17"/>
+    </resources>
+</document>

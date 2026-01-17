@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKCurrentVideoTipView">
+            <rect key="frame" x="0.0" y="0.0" width="439" height="108"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K0R-Bd-AmZ">
+                    <rect key="frame" x="17" y="34.5" width="63" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="63" id="NMi-Y8-qOv"/>
+                        <constraint firstAttribute="height" constant="39" id="QOe-k9-mK3"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上次学习到:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ykv-Kl-pup">
+                    <rect key="frame" x="90" y="37.5" width="70.5" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.15294117647058825" green="0.19607843137254902" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上次学习到:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5g-4D-vxI">
+                    <rect key="frame" x="90" y="55.5" width="242" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" red="0.15294117647058825" green="0.19607843137254902" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ab-Af-HGa">
+                    <rect key="frame" x="342" y="38" width="82" height="32"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="QnJ-qF-wh3"/>
+                        <constraint firstAttribute="width" constant="82" id="wKD-UJ-lC8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="继续学习" image="ic_go_white_v2.0" backgroundImage="bg_btn_blue_v2.0"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.92156862745098034" green="0.95294117647058818" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ykv-Kl-pup" firstAttribute="leading" secondItem="K0R-Bd-AmZ" secondAttribute="trailing" constant="10" id="39n-0z-TiQ"/>
+                <constraint firstItem="3ab-Af-HGa" firstAttribute="centerY" secondItem="K0R-Bd-AmZ" secondAttribute="centerY" id="C31-R7-Ks5"/>
+                <constraint firstItem="3ab-Af-HGa" firstAttribute="leading" secondItem="U5g-4D-vxI" secondAttribute="trailing" constant="10" id="Dpl-vt-Qy6"/>
+                <constraint firstItem="U5g-4D-vxI" firstAttribute="bottom" secondItem="K0R-Bd-AmZ" secondAttribute="bottom" constant="-2" id="TR6-su-qfX"/>
+                <constraint firstItem="K0R-Bd-AmZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="XRG-Fd-ySu"/>
+                <constraint firstItem="ykv-Kl-pup" firstAttribute="top" secondItem="K0R-Bd-AmZ" secondAttribute="top" constant="3" id="f6i-Vu-OLi"/>
+                <constraint firstAttribute="trailing" secondItem="3ab-Af-HGa" secondAttribute="trailing" constant="15" id="fjC-HX-l4e"/>
+                <constraint firstItem="K0R-Bd-AmZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fzH-d7-sDO"/>
+                <constraint firstItem="U5g-4D-vxI" firstAttribute="leading" secondItem="ykv-Kl-pup" secondAttribute="leading" id="tbj-AK-TnT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn" destination="3ab-Af-HGa" id="TsP-iE-mTJ"/>
+                <outlet property="iconIV" destination="K0R-Bd-AmZ" id="gZf-LI-2sN"/>
+                <outlet property="nameLB" destination="U5g-4D-vxI" id="olI-sv-FVe"/>
+            </connections>
+            <point key="canvasLocation" x="26.5" y="128"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_btn_blue_v2.0" width="87" height="35"/>
+        <image name="ic_go_white_v2.0" width="5" height="7"/>
+    </resources>
+</document>

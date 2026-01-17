@@ -1,0 +1,13 @@
+//
+//  HKTaskPraiseView.h
+//  Code
+//
+//  Created by Ivan li on 2018/7/17.
+//  Copyright © 2018年 pg. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface HKTaskPraiseView : UIView
+
+@end

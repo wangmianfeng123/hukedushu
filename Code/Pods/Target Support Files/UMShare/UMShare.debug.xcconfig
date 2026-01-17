@@ -1,0 +1,16 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/UMShare
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMCommon/UMCommon_7.3.7" "${PODS_ROOT}/UMDevice/UMDevice_2.2.1" "${PODS_ROOT}/UMShare/UMShare" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ/QQSDK" "${PODS_ROOT}/UMShare/UMShare/UMSocialUI"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UMShare" "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/QQ" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina" "${PODS_ROOT}/UMShare/UMShare/SocialLibraries/Sina/SinaSDK"
+OTHER_LDFLAGS = $(inherited) -l"SocialQQ" -l"SocialSina" -l"WeiboSDK" -l"c++" -l"sqlite3" -l"z" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "ImageIO" -framework "Photos" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/UMShare
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

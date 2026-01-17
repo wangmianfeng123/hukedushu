@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKQuestionTipView">
+            <rect key="frame" x="0.0" y="0.0" width="484" height="153"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-mA-cHD">
+                    <rect key="frame" x="15" y="67" width="454" height="76"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.如有需要可添加图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igs-sw-1UX">
+                            <rect key="frame" x="10" y="51.5" width="434" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.详细描述问题，你想得到什么帮助，以“？”结束" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6w5-VP-W62">
+                            <rect key="frame" x="10" y="32" width="434" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如何正确的提问：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02R-ug-KQX">
+                            <rect key="frame" x="10" y="10" width="114.5" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="QMR-Qi-OM3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q3h-Oz-SeC">
+                            <rect key="frame" x="414" y="3.5" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Gg7-0R-JBs"/>
+                                <constraint firstAttribute="width" constant="30" id="kyK-es-lfG"/>
+                            </constraints>
+                            <state key="normal" image="ic_study_medall_close"/>
+                            <connections>
+                                <action selector="closeBtnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="vt4-vh-FdH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="igs-sw-1UX" firstAttribute="leading" secondItem="6w5-VP-W62" secondAttribute="leading" id="C1K-V5-k5K"/>
+                        <constraint firstItem="igs-sw-1UX" firstAttribute="leading" secondItem="02R-ug-KQX" secondAttribute="leading" id="GGQ-YZ-Srg"/>
+                        <constraint firstAttribute="trailing" secondItem="igs-sw-1UX" secondAttribute="trailing" constant="10" id="MuL-pt-Pdy"/>
+                        <constraint firstItem="igs-sw-1UX" firstAttribute="top" secondItem="6w5-VP-W62" secondAttribute="bottom" constant="5" id="Q5E-DB-4ZD"/>
+                        <constraint firstAttribute="trailing" secondItem="Q3h-Oz-SeC" secondAttribute="trailing" constant="10" id="hFy-ru-ioJ"/>
+                        <constraint firstItem="6w5-VP-W62" firstAttribute="top" secondItem="02R-ug-KQX" secondAttribute="bottom" constant="5" id="ntQ-Lj-8ZK"/>
+                        <constraint firstItem="igs-sw-1UX" firstAttribute="leading" secondItem="d7X-mA-cHD" secondAttribute="leading" constant="10" id="pm7-JB-dHf"/>
+                        <constraint firstAttribute="bottom" secondItem="igs-sw-1UX" secondAttribute="bottom" constant="10" id="rUU-BX-8ZR"/>
+                        <constraint firstItem="igs-sw-1UX" firstAttribute="trailing" secondItem="6w5-VP-W62" secondAttribute="trailing" id="tNs-kn-ozc"/>
+                        <constraint firstItem="02R-ug-KQX" firstAttribute="top" secondItem="d7X-mA-cHD" secondAttribute="top" constant="10" id="wPQ-6q-AXk"/>
+                        <constraint firstItem="Q3h-Oz-SeC" firstAttribute="centerY" secondItem="02R-ug-KQX" secondAttribute="centerY" id="ypg-7y-19p"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="d7X-mA-cHD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="LZo-gG-hiQ"/>
+                <constraint firstAttribute="bottom" secondItem="d7X-mA-cHD" secondAttribute="bottom" constant="10" id="Lmg-Sv-FXZ"/>
+                <constraint firstAttribute="trailing" secondItem="d7X-mA-cHD" secondAttribute="trailing" constant="15" id="Q3J-SN-0PV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bgView" destination="d7X-mA-cHD" id="va2-kc-S6Q"/>
+                <outlet property="bottomLabel" destination="igs-sw-1UX" id="qXr-l9-nnP"/>
+                <outlet property="closeBtn" destination="Q3h-Oz-SeC" id="zKO-Xa-veU"/>
+                <outlet property="titleLabel" destination="02R-ug-KQX" id="4YT-n5-BKP"/>
+                <outlet property="topLabel" destination="6w5-VP-W62" id="P1e-J9-gtq"/>
+            </connections>
+            <point key="canvasLocation" x="-11.594202898550726" y="250.11160714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_study_medall_close" width="13" height="13"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

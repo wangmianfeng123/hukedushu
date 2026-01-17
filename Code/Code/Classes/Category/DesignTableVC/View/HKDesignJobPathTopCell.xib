@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HKDesignJobPathTopCell">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="106"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vsc-gW-LPz">
+                        <rect key="frame" x="5" y="5" width="279" height="96"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oEr-UO-75T">
+                                <rect key="frame" x="214" y="23" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="oEr-UO-75T" secondAttribute="height" id="EvK-2W-Tib"/>
+                                    <constraint firstAttribute="width" constant="50" id="e0Z-Gx-e47"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5dx-b0-xMh">
+                                <rect key="frame" x="15" y="28" width="189" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Job-zC-Ha0">
+                                <rect key="frame" x="15" y="51" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DTf-yl-ByK">
+                                <rect key="frame" x="61" y="51" width="31" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5dx-b0-xMh" firstAttribute="bottom" secondItem="Vsc-gW-LPz" secondAttribute="centerY" constant="-3" id="0GW-Zr-mH2"/>
+                            <constraint firstItem="oEr-UO-75T" firstAttribute="leading" secondItem="5dx-b0-xMh" secondAttribute="trailing" constant="10" id="1DL-s2-B7s"/>
+                            <constraint firstItem="5dx-b0-xMh" firstAttribute="leading" secondItem="Vsc-gW-LPz" secondAttribute="leading" constant="15" id="89A-Dc-ezr"/>
+                            <constraint firstAttribute="trailing" secondItem="oEr-UO-75T" secondAttribute="trailing" constant="15" id="I9u-0B-YGI"/>
+                            <constraint firstItem="oEr-UO-75T" firstAttribute="centerY" secondItem="Vsc-gW-LPz" secondAttribute="centerY" id="NsH-i7-ish"/>
+                            <constraint firstItem="DTf-yl-ByK" firstAttribute="centerY" secondItem="Job-zC-Ha0" secondAttribute="centerY" id="VUe-Az-2i3"/>
+                            <constraint firstItem="Job-zC-Ha0" firstAttribute="top" secondItem="Vsc-gW-LPz" secondAttribute="centerY" constant="3" id="daD-T8-Iae"/>
+                            <constraint firstItem="Job-zC-Ha0" firstAttribute="leading" secondItem="5dx-b0-xMh" secondAttribute="leading" id="egA-fg-jgt"/>
+                            <constraint firstItem="DTf-yl-ByK" firstAttribute="leading" secondItem="Job-zC-Ha0" secondAttribute="trailing" constant="15" id="xGe-Ub-c05"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Vsc-gW-LPz" secondAttribute="trailing" constant="5" id="DTq-0r-nrd"/>
+                <constraint firstItem="Vsc-gW-LPz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="b6s-4T-ht2"/>
+                <constraint firstAttribute="bottom" secondItem="Vsc-gW-LPz" secondAttribute="bottom" constant="5" id="eEh-0t-qCF"/>
+                <constraint firstItem="Vsc-gW-LPz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="ql4-Qv-CZH"/>
+            </constraints>
+            <size key="customSize" width="289" height="106"/>
+            <connections>
+                <outlet property="bgView" destination="Vsc-gW-LPz" id="9Zn-pL-zYU"/>
+                <outlet property="courseLabel" destination="DTf-yl-ByK" id="bb9-Xe-t0T"/>
+                <outlet property="hasStudyLabel" destination="Job-zC-Ha0" id="OFd-7I-cXE"/>
+                <outlet property="iconImgV" destination="oEr-UO-75T" id="5My-g8-Dne"/>
+                <outlet property="titleLabel" destination="5dx-b0-xMh" id="fX3-It-hXI"/>
+            </connections>
+            <point key="canvasLocation" x="313.768115942029" y="127.90178571428571"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

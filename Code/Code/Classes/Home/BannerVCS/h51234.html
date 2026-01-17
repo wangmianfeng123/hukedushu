@@ -1,0 +1,234 @@
+
+
+<!DOCTYPE html><html lang="zh-CN"><head><title>文章</title><meta name="keywords" content="虎课"><meta name="description" content="虎课"><meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta name="format-detection" content="telephone=no, email=no"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><meta name="apple-mobile-web-app-capable" content="yes" /><link href="http://js.huke88.com/api/css/!!article/detailv1.css,10.css" rel="stylesheet"></head><body onload=""><script type="text/javascript" src="http://js.huke88.com/api/js/srceen.js"></script><!--<link rel="stylesheet" href="/assets/css/detail.css">--><div id="article-wrap" ><template v-if="loaded" ><div class="article-title"><h2><span class="art-tips" v-if="article.is_exclusive">独家</span> {{article.title}}</h2></div><div class="article-about clearfix"><a href="javascript:;" target="_blank" class="author fl"><img :src="teacher.avator"></a><a href="javascript:;" target="_blank" class="name fl">{{teacher.name}}</a><span class="date fl">{{article.open_time}}</span><span class="readed fl">{{article.show_num}}阅读</span><a class="follow-btn fr" :class="{on:is_subscription}" >{{subscription_str}}</a><!--            <a class="follow-btn test_btn fr" >test</a>--><!--            <a @click="hl_subscription" class="follow-btn fr" >{{subscription_str}}</a>--></div><div class="article-cont"><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">由谷歌设计leader @Reena Merchant （https://twitter.com/ReenaMerchant），为大家</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">阐述设计的意义以及所带来的价值，希望你能从中学到一些有意义的东西（Ps:与作者聊天还</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">担心她太忙没空搭理我，没想作者很快就回复了，之后在twitter上还置顶了她的这篇文章了，</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">感动）。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><img src="http://pic.huke88.com/upload/content/2018/08/14/15342370393142.png" _src="http://pic.huke88.com/upload/content/2018/08/14/15342370393142.png"/></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">原文作者</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">以下是译文全文：</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">我总是觉得很难描述我的谋生之道。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">自称为设计师往往会让人误解，认为我的工作只是让软件产品“看起来更漂亮”。另一方面，</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">冒昧的称自己为设计leader或者设计战略家也会让人产生困惑，特别是对于在技术和设计领域</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">以外的人。即使在于行业内的其他人交谈时，对设计扮演什么样的角色，真正一致的理解也很</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">少见。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="text-align: center; font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><strong>什么是设计?</strong></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">每个公司和每个团队都对设计是什么以及设计师的角色有着自己的理解。 在用户体验领域，设</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">计角色中有太多专业领域 - 交互设计师，视觉设计师，信息架构师，动效设计师，原型设计师</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">——而且这些角色可能与其他领域（如市场营销，架构，工业设计甚至音效设计）都有重叠。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">复杂度还不止于此，不管团队中角色的组合情况如何，用户体验本身作为一门学科，在组织内</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">的成熟度也各不相同。一些团队可能扮演更多的服务角色并争取在战略上占据一席之地。另一</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">方面，一些公司可能会有首席设计师和深度嵌入式设计团队，为最高级别的业务和产品战略中</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">做出贡献。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">对于设计的理解，可以在公司、组织和团队中有所不同。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="text-align: center; font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><strong>设计的发展</strong></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">尽管对设计角色的解释不尽相同，但我们普遍认为多年来，用户体验领域已经变得逐渐成熟。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">&nbsp;在行业层面，对设计和设计人员的理解已经得到发展。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">设计不再被视为仅仅是制作UI元素，甚至不单纯只是提升产品体验。目前行业中会有一个更广</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">泛的理解，即设计可以影响用户对公司所有触点（译者注：卖家与买家之间所有可能产生联系</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">的地方）的体验。最后，所有这些触点和产品体验就是用户对公司品牌的总体认知，而设计影</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">响了这些方方面面。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">重点已经发生了变化。我们已经从设计师简单地创建可用的组件和产品设计的想法，转变为理</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">解他们的工作会影响整个品牌和客户体验的感知。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="text-align: center; font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><strong>让我们谈谈感受</strong></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">当我们考虑到设计对公司品牌会有更广泛的影响时，我们不仅要关注可用性，还要关注情感。&nbsp;</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">人们不仅希望产品能够正常工作 - 他们更希望在使用它们时能够感到高兴。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">为用户提供愉悦有趣的产品是用户参与的关键。但是，我们看到用户想要的东西越来越多。我</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">们逐渐认识到，仅凭愉悦是不够的。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">当史蒂夫·乔布斯谈到他那一代人在60年代经历的动荡时，他提到了一个开始走向新千年的转变:</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">“我们希望更丰富地体验我们的生活，而不仅仅只是过上更好的生活......比起50年代末和60年</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">代初，物质生活已经变得丰富了很多。 我们正在寻找一些更深层次的东西。”</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">这种深层次的探索已经在增多。人们越来越多地通过创造联系、记忆和经历来寻找满足感和成</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">就感。人们正在寻找更深层次的认同感，而这种认同感不能仅从购买实物产品中获得。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">人们想要感受到他们参与比自己的生活更重要的事情。 他们希望能够感知到他们使用的产品和</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">服务。 人们希望自己的生活有意义。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">意义是什么?就是赋予我们一种重要感或价值感。它对我们每个人都很特别，它帮助我们理解世</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">界并决定如何行动，同时也是帮助我们评估和决定我们的价值、信仰和欲望。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">我们在生活中做出的每一个选择都有助于我们实现自己的个人价值。 我们决定购买的产品或服</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">务为我们作为客户和被购买的公司之间建立了一种联系。 这种联系成为我们生活意义的一部分。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="text-align: center; font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><strong>设计的意义</strong></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">设计不仅仅是让产品看起来更吸引人，或者不只是提升可用性，甚至不只是让用户感到快乐。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">它的目的是让产品从可用的到令人愉悦的，最后再超越这些——让产品变得有意义。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">设计是我们通过我们的经验向客户传递深刻意义的一种方式。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">我们必须努力将我们提供给客户的价值从基本的功能性提升到更深层次的价值。 设计不仅需</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">要提供愉悦和乐趣，还需要提供我们知道人们正在寻求的深层含义。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">《Making Meaning 》这本书是一个很好的参考资料，其中包含有关推动品牌和产品创新</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">方面独到的见解。它的核心旨在达到如何使产品变得有意义。它抓住了人们最看重的15种</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">有意义的品质，基于对人类需求的广泛研究。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">(译者注：偶然发现一个介绍making meaning这本书的网站，还挺详细的</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">http://nathan.com/making-meaning&nbsp; 感兴趣的话，推荐一看)</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><img src="http://pic.huke88.com/upload/content/2018/08/14/15342371281499.png" _src="http://pic.huke88.com/upload/content/2018/08/14/15342371281499.png"/></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">以下是我的团队过去所做的工作已经转化为意义设计概念的几个例子。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="text-align: center; font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><strong>示例1：远程协作</strong></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">在研究过去的远程协作设计项目时，我们团队的重点是深入了解人们是如何工作的，以及他</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">们如何远程沟通和协作。通过我们的人类学研究，我们发现真正的驱动因素是人们希望在工</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">作中做得好。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">人们想要显得很有价值，他们就需要建立深厚的感情，与他人建立融洽的关系，并希望能够</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">在一起创造一些东西。我们的客户所追求的更深层意义就是成就感，创造和社区关系。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><img src="http://pic.huke88.com/upload/content/2018/08/14/15342372129473.png" _src="http://pic.huke88.com/upload/content/2018/08/14/15342372129473.png"/></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">照片来自 Bruce Mars</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="text-align: center; font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" color:="" font-weight:=""><strong>示例2：游戏和娱乐</strong></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">在过去的另一个项目中，我们的团队试图理解人们在沉迷于游戏或娱乐环境时所寻求的深</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">层含义。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">人们依靠这种娱乐方式来逃避现实，我们作为游戏和娱乐设计师，为我们的用户带来了乐</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">趣、欢乐和享受。我们的顾客所追求的更深层次的意义是一种自由和惊喜的感觉——以及</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">一个他们可以与他人一起体验这种感觉的社区。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><img src="http://pic.huke88.com/upload/content/2018/08/14/15342371561492.png" _src="http://pic.huke88.com/upload/content/2018/08/14/15342371561492.png" style=""/></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">虽然我在谷歌作为设计领导角色只有几个月的时间，但我已经看到了一些关于Google产品</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">改变人们生活方式的动人故事。 Google产品向用户提供深刻含义的方式令人惊叹。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">意义对商业很重要</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">我们设计的每件东西都需要体现用户所追求的核心需求，传递意义不能是事后的想法。 这</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">样做的愿景是需要深深嵌入公司的文化，使命，战略和员工的核心价值观中。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">意义需要成为组织核心诉求的一部分。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">意义的设计不仅对用户有益，对企业的成功来说也至关重要。为客户提供真正有价值的体</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">验，意味着他们能够更深入地了解品牌，并与公司形成更强的联系。品牌忠诚度和宣传力度</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">将会变得更高，客户将更深入地接触产品。这将反过来进一步提升产品的使用率和留存率。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">与产品或品牌的互动不是短暂的，会更深入，更持久。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">意义是我们每个人的指导方向和推动力。 这有助于我们重新审视自己，以及我们与之互动的</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">产品和公司。 通过经验传递意义与用户建立了深厚的关系。 它把设计提升到一种更加成熟以</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">至于成为一种战略的存在。 同时，它也有助于实现积极的业务成果。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">没有意义，我们就失去了用户寻找的核心。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">无论我们从事什么行业——无论是创造产品还是提供服务，无论我们是企业还是消费者，无论</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">我们的角色是什么——我们都有机会推动成功的商业成果，同时也会影响人们的生活。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">客户的每一个触点都成为为用户生活带来更多意义的机会。无论你是设计师、产品经理、营销</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">人员还是开发人员——我希望你能让你的技术和你的决定被指导，以实现对他人的意义。</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">原文：https://medium.com/google-design/the-meaning-of-design-44f1a82129a8</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">作者：Reena Merchant</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">译者：彩云Sky</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">本文翻译已获得作者的正式授权</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><img src="http://pic.huke88.com/upload/content/2018/08/14/15342372311402.png" _src="http://pic.huke88.com/upload/content/2018/08/14/15342372311402.png"/></span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""><span style=" font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:="">授权截图</span></p><p style="font-size: 18px; font-family: 微软雅黑, " microsoft="" font-weight:="" color:=""></p></div><div class="offcial-accounts"><div class="code-img"><img :src="article.qr_pic"></div><p class="txt">{{article.qr_desc}}</p><div class="sy-tips"><a href="javascript:;" v-for="tip in tips" target="_blank">{{tip}}</a></div></div></template></div><script src="http://js.huke88.com/api/js/vue.min.js"></script><!--<script src="https://cdn.bootcss.com/axios/0.18.0/axios.min.js"></script>--><script>
+
+    function parseParam(param, key){
+        var paramStr="";
+        if(param instanceof String||param instanceof Number||param instanceof Boolean){
+            paramStr+="&"+key+"="+encodeURIComponent(param);
+        }else{
+            $.each(param,function(i){
+                var k=key==null?i:key+(param instanceof Array?"["+i+"]":"."+i);
+                paramStr+='&'+parseParam(this, k);
+            });
+        }
+        return paramStr.substr(1);
+    };
+
+    var app = new Vue({
+        el: '#article-wrap',
+        data: {
+            message: 'Hello Vue!',
+            url_prefix: 'Hello Vue!',
+            headers:{},
+            is_subscription:false,
+            params:{},
+            article:{},
+            teacher:{},
+            isLogin:false,
+            loaded:false
+        },
+        computed:{
+            // is_subscription:function(){
+            //     return this.teacher.is_subscription;
+            // },
+            subscription_str:function(){
+                return this.is_subscription?'已关注':'关注';
+            },
+            // tag_attr:function(){
+            tips:function(){
+                var tips = [this.article.primary_tag.name, this.article.art_attribute];
+                return tips;
+                // return this.article.primary_tag.name+" | "+this.article.art_attribute;
+            }
+        },
+        methods:{
+            set_axios_default:function () {
+                //var headers = '<?//=$headers?>//';
+                //this.headers = JSON.parse(headers);
+                //console.log(this.headers);
+                //
+                //axios.defaults.headers.common['Authorization'] = headers.authorization;
+                //axios.defaults.headers.common['api-version'] = headers.api_version;
+                //axios.defaults.headers.common['device-num'] = headers.device_num;
+                //axios.defaults.headers.common['app-type'] = headers.app_type;
+
+                // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+            },
+            test:function () {
+                console.log('in test');
+                alert('in test');
+            },
+            hl_subscription:function () {
+                console.log(this.is_subscription);
+                var param = {
+                    teacher_id:this.teacher.id,
+                    type:this.is_subscription?1:0,
+                    uid:this.params.uid
+                };
+                console.log('param:',param);
+                // return;
+                // this.request('/v5/article/subscription', param, function (rs) {
+                var that=this;
+                // var url = '/v5/teacher/follow-teacher?' + parseParam(param);
+                var url = '/v5/teacher/follow-teacher';
+                this.request(url, param, function (rs) {
+                    // alert(1);
+                    // console.log('rs:',rs);
+                    // console.log('this.is_subscription:',that.is_subscription);
+                    that.is_subscription = !that.is_subscription;
+                    // console.log('that.is_subscription:',that.is_subscription);
+                    // console.log('that.subscription_str:',that.subscription_str);
+                });
+            },
+            request:function (url,param,clb) {
+                axios.post(url,param,{
+                    // axios.get(url,{
+                    headers:{
+                        Authorization:this.headers.authorization,
+                        // 'Content-Type': 'application/x-www-form-urlencoded'
+                        // Authorization:'Bearer-nBDpiJT0y4LhU8BcPGJXBfGxqPQ5iBNY'
+                    }
+                }).then(function (rs) {
+                    // alert(rs.msg);
+                    console.log('rs:',rs);
+                    rs = rs.data;
+                    if(rs.code==1) {
+                        clb(rs.data);
+                    }else{
+                        alert(rs.msg);
+                    }
+
+                });
+            }
+        },
+        mounted:function () {
+            this.loaded = true;
+        },
+        created:function () {
+            var article = '{"id":550,"title":"谷歌设计leader与你聊聊设计的意义","cover_pic":"http:\/\/pic.huke88.com\/article\/cover\/2018-08-24\/D64CAB89-0D07-75FB-11F0-24725055CCB8.png!\/fw\/360\/quality\/80\/compress\/true\/coalesce\/true\/format\/webp","teacher_uid":10431,"open_time":"2018-08-14","is_exclusive":1,"art_attribute_id":3,"art_form_id":4,"spider_from":"","qr_pic":"http:\/\/pic.huke88.com\/article\/qr\/2018-08-14\/403F3D66-1F24-165B-EF2C-8FCD738205EC.png!\/format\/webp","qr_desc":"","customer_label":"","appreciate_num":5,"show_num":"553","share_num":0,"comment_num":5,"be_collected_num":5,"status":1,"created_at":1534237248,"updated_at":1535091474,"art_attribute":"翻译","primary_tag":{"id":"2","name":"平面"},"tags":["2"],"is_collect":false,"is_appreciate":false}';
+            var teacher = '{"id":"9","uid":"10431","name":"卢帅","avator":"http:\/\/pic.huke88.com\/image\/000\/000\/000\/07F1E275-D6A0-38F0-0142-9EF874AFFBD9.jpg!\/fw\/48\/format\/webp","curriculum_num":"283","articles_num":"2","is_subscription":false}';
+            var params = '{"id":"550"}';
+            var headers = '[]';
+            var isLogin = '';
+
+
+            this.article = JSON.parse(article);
+            this.teacher = JSON.parse(teacher);
+            this.params = JSON.parse(params);
+            this.headers = JSON.parse(headers);
+            this.isLogin = isLogin;
+
+            this.is_subscription = this.teacher.is_subscription;
+
+            // console.log(this.article,this.teacher,this.params,this.headers);
+
+            this.set_axios_default();
+        }
+    });
+
+    // $(function () {
+    //     $('.test_btn').click(function () {
+    //         alert('in .test_btn')
+    //
+    //     });
+    //     console.log('in fun');
+    // });
+
+    /*注册监听事件*/
+    function setupWebViewJavascriptBridge(callback) {
+
+        //Android使用
+        if (window.WebViewJavascriptBridge) {
+            callback(WebViewJavascriptBridge)
+        } else {
+            document.addEventListener(
+                'WebViewJavascriptBridgeReady'
+                , function() {
+                    callback(WebViewJavascriptBridge)
+                },
+                false
+            );
+        }
+
+        // iOS使用
+        // if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+        if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+        window.WVJBCallbacks = [callback];
+        var WVJBIframe = document.createElement('iframe');
+        WVJBIframe.style.display = 'none';
+        WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+        document.documentElement.appendChild(WVJBIframe);
+        setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+    }
+
+    /*与OC交互的所有JS方法都要放在此处注册，才能调用通过JS调用OC或者让OC调用这里的JS*/
+    setupWebViewJavascriptBridge(function(bridge) {
+
+        // 图片放大
+        $('.article-cont').on('click', 'img', function () {
+            var imgUrl = $(this).attr('src');
+            // alert(imgUrl);
+            var imgParams = {"img_url":imgUrl};
+            bridge.callHandler('picEnlarge', imgParams, function(response) {
+                alert(response);
+            });
+        });
+
+        $('.follow-btn').on('click',  function () {
+            // alert('in follow-btn');
+            var imgParams = {"isSubscription":app.is_subscription?1:0,isLogin:app.isLogin?1:0};
+            // alert(JSON.stringify(imgParams));
+            bridge.callHandler('nativeSubscription', imgParams, function(response) {
+                alert(response);
+            });
+        });
+        $('.author').on('click',  function () {
+            // alert('in teacher');
+            var params = {};
+            // alert(JSON.stringify(params));
+            bridge.callHandler('nativeGoTeacherHomePage', params, function(response) {
+                alert(response);
+            });
+        });
+
+        // function jsSubscription(isSubscription) {
+        //     alert(isSubscription);
+        //     app.test();
+        //     app.is_subscription = isSubscription;
+        // }
+
+        bridge.init(function(message, responseCallback) {
+            console.log('JS got a message', message);
+            var data = {
+                'Javascript Responds': '测试中文!'
+            };
+
+            if (responseCallback) {
+                console.log('JS responding with', data);
+                responseCallback(data);
+            }
+        });
+
+        bridge.registerHandler("jsSubscription", function(isSubscription, responseCallback) {
+            // alert(isSubscription);
+            isSubscription = JSON.parse(isSubscription).isSubscription;
+            // alert(isSubscription);
+            // app.test();
+            app.is_subscription = isSubscription=='0'?false:isSubscription;
+            // alert(app.is_subscription);
+            var responseData = "Javascript Says Right back aka!";
+            responseCallback(responseData);
+        });
+
+
+    });
+
+
+
+
+    // app.is_subscription = 1;
+    // console.log('is_subscription:',app.is_subscription);
+    // console.log('message:',app.message);
+    // console.log('test:',app.test());
+</script><script src="http://js.huke88.com/api/js/!!jquery.1.11.3.min.js,jquery.marquee.js,axios.min.js,10.js"></script></body></html>

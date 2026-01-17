@@ -1,0 +1,19 @@
+//
+//  HKDayTaskVC.h
+//  Code
+//
+//  Created by yxma on 2020/8/27.
+//  Copyright © 2020 pg. All rights reserved.
+//
+
+#import "HKBaseVC.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface HKDayTaskVC : HKBaseVC
+@property (nonatomic, copy)NSString *date;
+@property (nonatomic, copy)NSString * trainingId;
+
+@end
+
+NS_ASSUME_NONNULL_END

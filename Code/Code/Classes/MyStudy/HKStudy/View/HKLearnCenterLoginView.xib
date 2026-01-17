@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKLearnCenterLoginView">
+            <rect key="frame" x="0.0" y="0.0" width="472" height="358"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RHT-k5-von">
+                    <rect key="frame" x="0.0" y="0.0" width="472" height="11"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="11" id="6oi-J7-yNd"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d5O-nt-Ulu" userLabel="BottomView">
+                    <rect key="frame" x="0.0" y="347" width="472" height="11"/>
+                    <color key="backgroundColor" red="0.97254901959999995" green="0.97647058819999999" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="11" id="YgM-gG-9Wk"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XqC-gX-aDD" userLabel="container">
+                    <rect key="frame" x="0.0" y="0.0" width="472" height="347"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60o-zW-o6e">
+                    <rect key="frame" x="0.0" y="1" width="472" height="336"/>
+                    <state key="normal" image="myStudy_login"/>
+                    <connections>
+                        <action selector="loginBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="fke-Ms-pEU"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="登录查看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXV-c6-YB6">
+                    <rect key="frame" x="203.5" y="159.5" width="65.5" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每天进步一点点" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oT4-Kd-P3R">
+                    <rect key="frame" x="189.5" y="312" width="93" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.52941176470588236" green="0.52941176470588236" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97647058823529409" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oXV-c6-YB6" firstAttribute="centerX" secondItem="60o-zW-o6e" secondAttribute="centerX" id="1Hl-cK-EaV"/>
+                <constraint firstItem="d5O-nt-Ulu" firstAttribute="leading" secondItem="RHT-k5-von" secondAttribute="leading" id="3Mc-3n-lae"/>
+                <constraint firstItem="d5O-nt-Ulu" firstAttribute="trailing" secondItem="RHT-k5-von" secondAttribute="trailing" id="9OO-s6-04d"/>
+                <constraint firstItem="XqC-gX-aDD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ARr-Eg-mSg"/>
+                <constraint firstItem="oT4-Kd-P3R" firstAttribute="centerX" secondItem="60o-zW-o6e" secondAttribute="centerX" id="CX0-TV-mIe"/>
+                <constraint firstItem="XqC-gX-aDD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="FOY-Im-LFI"/>
+                <constraint firstAttribute="bottom" secondItem="60o-zW-o6e" secondAttribute="bottom" constant="21" id="GMh-Od-Pac"/>
+                <constraint firstItem="RHT-k5-von" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="T8R-N1-qce"/>
+                <constraint firstItem="60o-zW-o6e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TgG-61-oNT"/>
+                <constraint firstAttribute="bottom" secondItem="oT4-Kd-P3R" secondAttribute="bottom" constant="30" id="Y9R-xy-mx4"/>
+                <constraint firstAttribute="trailing" secondItem="RHT-k5-von" secondAttribute="trailing" id="YQS-D7-VBm"/>
+                <constraint firstItem="d5O-nt-Ulu" firstAttribute="top" secondItem="XqC-gX-aDD" secondAttribute="bottom" id="dDe-iZ-Ssv"/>
+                <constraint firstItem="oXV-c6-YB6" firstAttribute="centerY" secondItem="60o-zW-o6e" secondAttribute="centerY" id="fHu-zW-4td"/>
+                <constraint firstAttribute="trailing" secondItem="XqC-gX-aDD" secondAttribute="trailing" id="for-o1-jJq"/>
+                <constraint firstAttribute="trailing" secondItem="60o-zW-o6e" secondAttribute="trailing" id="lLQ-KT-qdd"/>
+                <constraint firstItem="RHT-k5-von" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oeC-ak-Nz4"/>
+                <constraint firstAttribute="bottom" secondItem="d5O-nt-Ulu" secondAttribute="bottom" id="ou1-gN-Ztw"/>
+                <constraint firstItem="60o-zW-o6e" firstAttribute="top" secondItem="RHT-k5-von" secondAttribute="bottom" constant="-10" id="tMd-jJ-G8X"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="containerView" destination="XqC-gX-aDD" id="6mK-vR-v5x"/>
+            </connections>
+            <point key="canvasLocation" x="10" y="-5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="myStudy_login" width="193.5" height="188.5"/>
+    </resources>
+</document>

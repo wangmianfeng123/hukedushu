@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="101" id="KGk-i7-Jjw" customClass="HKVipPrivilegeInCell">
+            <rect key="frame" x="0.0" y="0.0" width="206" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="206" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BUH-hd-ndx">
+                        <rect key="frame" x="79" y="0.0" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="DZC-AI-jIP"/>
+                            <constraint firstAttribute="height" constant="48" id="Nrv-o5-6Uv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eco-3h-Usy">
+                        <rect key="frame" x="87.5" y="51" width="31" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="BUH-hd-ndx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IM4-rr-tFR"/>
+                    <constraint firstItem="BUH-hd-ndx" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="K6K-pQ-J7I"/>
+                    <constraint firstItem="eco-3h-Usy" firstAttribute="centerX" secondItem="BUH-hd-ndx" secondAttribute="centerX" id="Pu0-BM-vPe"/>
+                    <constraint firstAttribute="bottom" secondItem="eco-3h-Usy" secondAttribute="bottom" constant="2.5499999999999998" id="sqz-sM-TEp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="headerIV" destination="BUH-hd-ndx" id="393-9O-mM9"/>
+                <outlet property="nameLB" destination="eco-3h-Usy" id="3v0-rA-cGD"/>
+            </connections>
+            <point key="canvasLocation" x="-8" y="74.5"/>
+        </tableViewCell>
+    </objects>
+</document>

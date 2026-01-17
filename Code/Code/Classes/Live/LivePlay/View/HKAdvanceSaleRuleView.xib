@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HKAdvanceSaleRuleView">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="定金规则" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxa-Bi-8cX">
+                    <rect key="frame" x="108.5" y="25" width="73.5" height="21.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOv-fW-PSh">
+                    <rect key="frame" x="30" y="61.5" width="230" height="73.5"/>
+                    <attributedString key="attributedText">
+                        <fragment content="1. ">
+                            <attributes>
+                                <font key="NSFont" size="12" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                    <tabStops>
+                                        <textTab alignment="left" location="28.299999237060547">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="56.650001525878906">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="85">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="113.34999847412109">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="141.69999694824219">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="170.05000305175781">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="198.39999389648438">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="226.75">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="255.10000610351562">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="283.45001220703125">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="311.79998779296875">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="340.14999389648438">
+                                            <options/>
+                                        </textTab>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="定金预付后，可在付尾款时抵扣对应金额，可享受预付优惠">
+                            <attributes>
+                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                    <tabStops>
+                                        <textTab alignment="left" location="28.299999237060547">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="56.650001525878906">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="85">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="113.34999847412109">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="141.69999694824219">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="170.05000305175781">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="198.39999389648438">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="226.75">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="255.10000610351562">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="283.45001220703125">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="311.79998779296875">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="340.14999389648438">
+                                            <options/>
+                                        </textTab>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <font key="NSFont" size="12" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="2" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                    <tabStops>
+                                        <textTab alignment="left" location="28.299999237060547">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="56.650001525878906">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="85">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="113.34999847412109">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="141.69999694824219">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="170.05000305175781">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="198.39999389648438">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="226.75">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="255.10000610351562">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="283.45001220703125">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="311.79998779296875">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="340.14999389648438">
+                                            <options/>
+                                        </textTab>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="2. ">
+                            <attributes>
+                                <font key="NSFont" size="12" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                    <tabStops>
+                                        <textTab alignment="left" location="28.299999237060547">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="56.650001525878906">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="85">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="113.34999847412109">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="141.69999694824219">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="170.05000305175781">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="198.39999389648438">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="226.75">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="255.10000610351562">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="283.45001220703125">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="311.79998779296875">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="340.14999389648438">
+                                            <options/>
+                                        </textTab>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="定金一经支付，不予退还，请您确定后下单">
+                            <attributes>
+                                <font key="NSFont" size="12" name="PingFangSC-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                    <tabStops>
+                                        <textTab alignment="left" location="28.299999237060547">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="56.650001525878906">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="85">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="113.34999847412109">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="141.69999694824219">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="170.05000305175781">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="198.39999389648438">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="226.75">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="255.10000610351562">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="283.45001220703125">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="311.79998779296875">
+                                            <options/>
+                                        </textTab>
+                                        <textTab alignment="left" location="340.14999389648438">
+                                            <options/>
+                                        </textTab>
+                                    </tabStops>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-M8-DWM">
+                    <rect key="frame" x="37.5" y="152" width="215" height="38"/>
+                    <color key="backgroundColor" red="1" green="0.54117647059999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="215" id="DlO-jy-iOY"/>
+                        <constraint firstAttribute="height" constant="38" id="dja-H3-wG7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="知道了"/>
+                    <connections>
+                        <action selector="knowBtnClick" destination="iN0-l3-epB" eventType="touchUpInside" id="Yce-1E-xmM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3bt-M8-DWM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="0NG-03-kDo"/>
+                <constraint firstItem="mOv-fW-PSh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="Dx7-ze-FNK"/>
+                <constraint firstItem="jxa-Bi-8cX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="LmS-zL-vTl"/>
+                <constraint firstAttribute="trailing" secondItem="mOv-fW-PSh" secondAttribute="trailing" constant="30" id="NoS-x2-70T"/>
+                <constraint firstItem="jxa-Bi-8cX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="cH8-u9-ZL6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3bt-M8-DWM" secondAttribute="bottom" constant="20" id="cpH-kB-qp9"/>
+                <constraint firstItem="mOv-fW-PSh" firstAttribute="top" secondItem="jxa-Bi-8cX" secondAttribute="bottom" constant="15" id="u0h-iP-3m2"/>
+                <constraint firstItem="mOv-fW-PSh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wzl-jd-Ees"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="knowBtn" destination="3bt-M8-DWM" id="60I-sG-GYO"/>
+            </connections>
+            <point key="canvasLocation" x="113.04347826086958" y="337.16517857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
