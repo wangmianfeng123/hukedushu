@@ -111,6 +111,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"123567");
+    NSLog(@"123567");
     //bugly错误统计
     [self configUMRecordAndBugly];
     
