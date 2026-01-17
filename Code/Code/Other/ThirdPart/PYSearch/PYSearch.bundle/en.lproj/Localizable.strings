@@ -1,0 +1,21 @@
+/**"PYSearchSearchPlaceholderText" = "Search content";
+"PYSearchHotSearchText" = "Popular searches";
+"PYSearchSearchHistoryText" = "Search history";
+"PYSearchEmptySearchHistoryText" = "Clear the search history";
+
+"PYSearchEmptyButtonText" = "Clear";
+"PYSearchEmptySearchHistoryLogText" = "Clear the search history";
+"PYSearchCancelButtonText" = "Cancel";
+"PYSearchBackButtonText" = "Back";
+**/
+
+"PYSearchSearchPlaceholderText" = "搜索内容";
+"PYSearchHotSearchText" = "热门搜索";
+"PYSearchSearchHistoryText" = "搜索历史";
+"PYSearchEmptySearchHistoryText" = "清空搜索历史";
+
+"PYSearchEmptyButtonText" = "清空";
+"PYSearchEmptySearchHistoryLogText" = "清空搜索历史";
+"PYSearchCancelButtonText" = "取消";
+"PYSearchBackButtonText" = "返回";
+

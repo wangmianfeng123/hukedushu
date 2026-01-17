@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="185" id="KGk-i7-Jjw" customClass="HKSearchNoteCourseCell">
+            <rect key="frame" x="0.0" y="0.0" width="449" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="449" height="185"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HK_PlaceImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="YOl-9r-o4y">
+                        <rect key="frame" x="15" y="57.5" width="115" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="Azb-CI-ExE"/>
+                            <constraint firstAttribute="width" secondItem="YOl-9r-o4y" secondAttribute="height" multiplier="230:140" id="q1w-sQ-gpC"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PS-黑色配色足球海报海报海报海报" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dux-hr-VqB">
+                        <rect key="frame" x="145" y="60.5" width="269" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="共23条笔记" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZb-Rj-NoS">
+                        <rect key="frame" x="145" y="108.5" width="69" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2G-v7-7Kc">
+                        <rect key="frame" x="15" y="184" width="434" height="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="f8b-h2-XAh"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YOl-9r-o4y" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="55K-Ly-nrX"/>
+                    <constraint firstItem="dux-hr-VqB" firstAttribute="top" secondItem="YOl-9r-o4y" secondAttribute="top" constant="3" id="ElT-Tp-rPZ"/>
+                    <constraint firstItem="YOl-9r-o4y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="LcR-eQ-Sf7"/>
+                    <constraint firstAttribute="bottom" secondItem="t2G-v7-7Kc" secondAttribute="bottom" id="Uua-uX-jay"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="dux-hr-VqB" secondAttribute="trailing" constant="15" id="VGh-5N-fHL"/>
+                    <constraint firstItem="GZb-Rj-NoS" firstAttribute="leading" secondItem="YOl-9r-o4y" secondAttribute="trailing" constant="15" id="bqT-13-yOC"/>
+                    <constraint firstItem="t2G-v7-7Kc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="dzG-pw-G8q"/>
+                    <constraint firstItem="dux-hr-VqB" firstAttribute="leading" secondItem="YOl-9r-o4y" secondAttribute="trailing" constant="15" id="kKv-Li-yVn"/>
+                    <constraint firstAttribute="trailing" secondItem="t2G-v7-7Kc" secondAttribute="trailing" id="lpd-UE-wcp"/>
+                    <constraint firstItem="GZb-Rj-NoS" firstAttribute="bottom" secondItem="YOl-9r-o4y" secondAttribute="bottom" constant="-3" id="sSs-G1-wO0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="descLabel" destination="GZb-Rj-NoS" id="zGu-gB-u6W"/>
+                <outlet property="leftImgV" destination="YOl-9r-o4y" id="Uz2-eP-d9F"/>
+                <outlet property="lineView" destination="t2G-v7-7Kc" id="H5D-sj-H16"/>
+                <outlet property="titleLabel" destination="dux-hr-VqB" id="eCC-xC-Hty"/>
+            </connections>
+            <point key="canvasLocation" x="231.15942028985509" y="199.88839285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HK_PlaceImage.png" width="160" height="98"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

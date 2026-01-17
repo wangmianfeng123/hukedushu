@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HKDropMenuItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="98" height="39"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="98" height="39"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6p-yl-uoa">
+                        <rect key="frame" x="0.0" y="7" width="98" height="25"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TA3-Yt-Qv7">
+                                <rect key="frame" x="10" y="4.5" width="78" height="16"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TA3-Yt-Qv7" secondAttribute="trailing" constant="10" id="Iv8-Y2-djC"/>
+                            <constraint firstAttribute="height" constant="25" id="WS2-7j-7mx"/>
+                            <constraint firstItem="TA3-Yt-Qv7" firstAttribute="leading" secondItem="d6p-yl-uoa" secondAttribute="leading" constant="10" id="Yse-ZH-w3I"/>
+                            <constraint firstItem="TA3-Yt-Qv7" firstAttribute="centerX" secondItem="d6p-yl-uoa" secondAttribute="centerX" id="aHM-XT-aH4"/>
+                            <constraint firstItem="TA3-Yt-Qv7" firstAttribute="centerY" secondItem="d6p-yl-uoa" secondAttribute="centerY" id="yfk-XN-oLk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="d6p-yl-uoa" secondAttribute="trailing" id="AE5-71-rpA"/>
+                <constraint firstItem="d6p-yl-uoa" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Jk1-lp-eeK"/>
+                <constraint firstItem="d6p-yl-uoa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="TUg-dD-l9H"/>
+            </constraints>
+            <size key="customSize" width="98" height="39"/>
+            <connections>
+                <outlet property="titleLabel" destination="TA3-Yt-Qv7" id="GDP-x4-Nri"/>
+            </connections>
+            <point key="canvasLocation" x="169.56521739130437" y="211.94196428571428"/>
+        </collectionViewCell>
+    </objects>
+</document>

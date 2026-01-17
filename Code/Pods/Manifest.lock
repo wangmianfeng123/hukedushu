@@ -1,0 +1,403 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - AgoraRtcEngine_iOS (2.9.0.102)
+  - AliyunLogProducer (2.2.12)
+  - ASIHTTPRequest (1.8.2):
+    - ASIHTTPRequest/ASIWebPageRequest (= 1.8.2)
+    - ASIHTTPRequest/CloudFiles (= 1.8.2)
+    - ASIHTTPRequest/Core (= 1.8.2)
+    - ASIHTTPRequest/S3 (= 1.8.2)
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.2):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.2):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.2):
+    - ASIHTTPRequest/Core
+  - Bugly (2.5.90)
+  - CocoaAsyncSocket (7.6.4)
+  - CYLTabBarController (1.18.0)
+  - DTCoreText (1.6.25):
+    - DTCoreText/Core (= 1.6.25)
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTCoreText/Core (1.6.25):
+    - DTFoundation/Core (~> 1.7.5)
+    - DTFoundation/DTAnimatedGIF (~> 1.7.5)
+    - DTFoundation/DTHTMLParser (~> 1.7.5)
+    - DTFoundation/UIKit (~> 1.7.5)
+  - DTFoundation/Core (1.7.15)
+  - DTFoundation/DTAnimatedGIF (1.7.15)
+  - DTFoundation/DTHTMLParser (1.7.15):
+    - DTFoundation/Core
+  - DTFoundation/UIKit (1.7.15):
+    - DTFoundation/Core
+  - DZNEmptyDataSet (1.8.1)
+  - EAIntroView (2.10.0):
+    - EARestrictedScrollView (~> 1.1.0)
+  - EARestrictedScrollView (1.1.0)
+  - FluentDarkModeKit (0.5.1)
+  - HappyDNS (0.3.17)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - IJKMediaFramework (0.1.5)
+  - IQKeyboardManager (6.2.1)
+  - JCore (2.4.0)
+  - JPush (3.3.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - JSBadgeView (1.4.1)
+  - JSONModel (1.1.2)
+  - lottie-ios (2.5.3)
+  - LUKeychainAccess (2.0.2)
+  - M80AttributedLabel (1.7.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.1.15.7)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+  - MRProgress (0.8.3):
+    - MRProgress/ActivityIndicator (= 0.8.3)
+    - MRProgress/Blur (= 0.8.3)
+    - MRProgress/Circular (= 0.8.3)
+    - MRProgress/Icons (= 0.8.3)
+    - MRProgress/NavigationBarProgress (= 0.8.3)
+    - MRProgress/Overlay (= 0.8.3)
+  - MRProgress/ActivityIndicator (0.8.3):
+    - MRProgress/Stopable
+  - MRProgress/Blur (0.8.3):
+    - MRProgress/Helper
+  - MRProgress/Circular (0.8.3):
+    - MRProgress/Helper
+    - MRProgress/ProgressBaseClass
+    - MRProgress/Stopable
+  - MRProgress/Helper (0.8.3)
+  - MRProgress/Icons (0.8.3)
+  - MRProgress/NavigationBarProgress (0.8.3):
+    - MRProgress/ProgressBaseClass
+  - MRProgress/Overlay (0.8.3):
+    - MRProgress/ActivityIndicator
+    - MRProgress/Blur
+    - MRProgress/Circular
+    - MRProgress/Helper
+    - MRProgress/Icons
+  - MRProgress/ProgressBaseClass (0.8.3)
+  - MRProgress/Stopable (0.8.3):
+    - MRProgress/Helper
+  - MZTimerLabel (0.5.4)
+  - PolyvAliHttpDNS (1.6.7)
+  - PolyvBusinessSDK (0.11.0):
+    - PolyvFoundationSDK (~> 0.9.1)
+  - PolyvCloudClassSDK (0.12.1):
+    - PolyvCloudClassSDK/Core (= 0.12.1)
+    - PolyvCloudClassSDK/Player (= 0.12.1)
+    - PolyvCloudClassSDK/ThirdPart (= 0.12.1)
+  - PolyvCloudClassSDK/Core (0.12.1):
+    - PolyvBusinessSDK (~> 0.11.0)
+  - PolyvCloudClassSDK/Player (0.12.1):
+    - PolyvIJKPlayer (~> 0.6.0)
+  - PolyvCloudClassSDK/ThirdPart (0.12.1):
+    - AgoraRtcEngine_iOS (= 2.9.0.102)
+    - PolyvAliHttpDNS (~> 1.6.7)
+    - Socket.IO-Client-Swift (~> 14.0.0)
+  - PolyvFoundationSDK (0.9.1)
+  - PolyvIJKPlayer (0.6.3)
+  - Qiniu (8.1.0):
+    - HappyDNS (~> 0.3.17)
+  - Reachability (3.2)
+  - ReactiveObjC (3.1.1)
+  - SDAutoLayout (2.2.1)
+  - SDCycleScrollView (1.75):
+    - SDWebImage (>= 4.0.0)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - Socket.IO-Client-Swift (14.0.0):
+    - Starscream (~> 3.0.6)
+  - Starscream (3.0.6)
+  - SuperPlayer (3.6.2):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - SuperPlayer/Player (= 3.6.2)
+  - SuperPlayer/Player (3.6.2):
+    - AFNetworking
+    - Masonry
+    - SDWebImage
+    - TXLiteAVSDK_Player
+  - SVProgressHUD (2.1.2)
+  - TBScrollViewEmpty (1.0.1)
+  - Toast (4.0.0)
+  - TXLiteAVSDK_Player (10.6.11823)
+  - TYAttributedLabel (2.6.6)
+  - TZImagePickerController (3.0.9)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - UMAPM (1.7.0)
+  - UMCCommonLog (2.0.0)
+  - UMCommon (7.3.7):
+    - UMDevice
+  - UMDevice (2.2.1)
+  - UMShare/Core (6.10.6):
+    - UMCommon
+  - UMShare/Social/QQ (6.10.6):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedQQ
+  - UMShare/Social/ReducedQQ (6.10.6):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/ReducedSina (6.10.6):
+    - UMCommon
+    - UMShare/Core
+  - UMShare/Social/Sina (6.10.6):
+    - UMCommon
+    - UMShare/Core
+    - UMShare/Social/ReducedSina
+  - UMShare/UI (6.10.6):
+    - UMCommon
+    - UMShare/Core
+  - WebViewJavascriptBridge (6.0.3)
+  - WMPageController (2.5.2)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - ZFPlayer (4.1.0):
+    - ZFPlayer/Core (= 4.1.0)
+  - ZFPlayer/AVPlayer (4.1.0):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.1.0):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.0)
+  - ZFPlayer/ijkplayer (4.1.0):
+    - IJKMediaFramework
+    - ZFPlayer/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 4.0.0)
+  - AliyunLogProducer (~> 2.2.12)
+  - ASIHTTPRequest (~> 1.8.2)
+  - Bugly (~> 2.5.9)
+  - CYLTabBarController (~> 1.18.0)
+  - DTCoreText (~> 1.6.21)
+  - DZNEmptyDataSet
+  - EAIntroView (~> 2.10.0)
+  - FluentDarkModeKit (from `https://github.com/lzylzy1991/FluentDarkModeKit.git`)
+  - IGListKit
+  - IQKeyboardManager (~> 6.2.0)
+  - JCore (= 2.4.0)
+  - JPush (= 3.3.6)
+  - JSBadgeView (~> 1.4.1)
+  - JSONModel (~> 1.1.2)
+  - lottie-ios (~> 2.5.3)
+  - LUKeychainAccess (~> 2.0.2)
+  - M80AttributedLabel (~> 1.7.0)
+  - Masonry
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension
+  - MJRefresh (~> 3.1.15.7)
+  - MRDLNA
+  - MRProgress
+  - MZTimerLabel (~> 0.5.4)
+  - PolyvCloudClassSDK (= 0.12.1)
+  - Qiniu
+  - ReactiveObjC (= 3.1.1)
+  - SDAutoLayout (~> 2.2.0)
+  - SDCycleScrollView (~> 1.66)
+  - SDWebImage (~> 5.13.0)
+  - SuperPlayer (= 3.6.2)
+  - SVProgressHUD (~> 2.1.2)
+  - TBScrollViewEmpty
+  - Toast (~> 4.0.0)
+  - TXLiteAVSDK_Player (from `https://mediacloud-76607.gzc.vod.tencent-cloud.com/Podspec/TXCTbPlayer/10.6.11823/TXLiteAVSDK_Player.podspec`)
+  - TYAttributedLabel
+  - TZImagePickerController (~> 3.0.9)
+  - "UITableView+FDTemplateLayoutCell"
+  - UMAPM
+  - UMCCommonLog
+  - UMCommon
+  - UMDevice
+  - UMShare/Social/QQ
+  - UMShare/Social/Sina
+  - UMShare/UI
+  - WebViewJavascriptBridge (~> 6.0.3)
+  - WMPageController
+  - YYText
+  - YYWebImage
+  - ZFPlayer (~> 4.1.0)
+  - ZFPlayer/AVPlayer (~> 4.1.0)
+  - ZFPlayer/ControlView (~> 4.1.0)
+  - ZFPlayer/ijkplayer (~> 4.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AgoraRtcEngine_iOS
+    - AliyunLogProducer
+    - ASIHTTPRequest
+    - Bugly
+    - CocoaAsyncSocket
+    - CYLTabBarController
+    - DTCoreText
+    - DTFoundation
+    - DZNEmptyDataSet
+    - EAIntroView
+    - EARestrictedScrollView
+    - HappyDNS
+    - IGListKit
+    - IJKMediaFramework
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - JSBadgeView
+    - JSONModel
+    - lottie-ios
+    - LUKeychainAccess
+    - M80AttributedLabel
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MRDLNA
+    - MRProgress
+    - MZTimerLabel
+    - PolyvAliHttpDNS
+    - PolyvBusinessSDK
+    - PolyvCloudClassSDK
+    - PolyvFoundationSDK
+    - PolyvIJKPlayer
+    - Qiniu
+    - Reachability
+    - ReactiveObjC
+    - SDAutoLayout
+    - SDCycleScrollView
+    - SDWebImage
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SuperPlayer
+    - SVProgressHUD
+    - TBScrollViewEmpty
+    - Toast
+    - TYAttributedLabel
+    - TZImagePickerController
+    - "UITableView+FDTemplateLayoutCell"
+    - UMAPM
+    - UMCCommonLog
+    - UMCommon
+    - UMDevice
+    - UMShare
+    - WebViewJavascriptBridge
+    - WMPageController
+    - YYCache
+    - YYImage
+    - YYText
+    - YYWebImage
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  FluentDarkModeKit:
+    :git: https://github.com/lzylzy1991/FluentDarkModeKit.git
+  TXLiteAVSDK_Player:
+    :podspec: https://mediacloud-76607.gzc.vod.tencent-cloud.com/Podspec/TXCTbPlayer/10.6.11823/TXLiteAVSDK_Player.podspec
+
+CHECKOUT OPTIONS:
+  FluentDarkModeKit:
+    :commit: 28ba241d13c5e69c3807863ce5c864ef0e965658
+    :git: https://github.com/lzylzy1991/FluentDarkModeKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AgoraRtcEngine_iOS: 9755a9dcd45ab1d177ece9fe15dea23124d63d50
+  AliyunLogProducer: 176f2db012084ffec273b947f3e994f816943ab5
+  ASIHTTPRequest: ec013992946676b7978dcbde6396d57312d21db4
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  CYLTabBarController: 13ee7f85f1e2dc67e865d35bf704e81f1380d34d
+  DTCoreText: e92f4cf6b36d9d71ce4436d12cf089d74ab0596b
+  DTFoundation: 767ca882209ef4d5132ec7e702526d5ed5bb71a2
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EAIntroView: 3494b7bbd1212e3a4f7e8d16194a1b00e7b9abb2
+  EARestrictedScrollView: b0c2a3f92fb2610bb44d71c5e4893777c89e45ef
+  FluentDarkModeKit: ebf4727c2a15124742e5d04d73e6426bd04d3af9
+  HappyDNS: 848ef73e24f2b0e2752064223ce2dc0dd88900ea
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  JCore: a29e4b0ee54e1301446dc02d8e1c350404108b34
+  JPush: a401b946dcc76b37335422487201bc1ecc8dd296
+  JSBadgeView: 3861ddee41094284d9468e6d0af5107f703aaac5
+  JSONModel: 216584d0311b053ff714f1d6cb700dbf890847bc
+  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  LUKeychainAccess: 65773658e89cb8d0764143a12223a7a7f7a3b222
+  M80AttributedLabel: 7cb5064930533719b706c1c8febee32442da7cf3
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+  MRProgress: 16de7cc9f347e8846797a770db102a323fe7ef09
+  MZTimerLabel: cd9bfb9304540ef2a9e163384fca9c978f0dbf83
+  PolyvAliHttpDNS: 0fbbbcd3aab07a48305d36884681ca33849cc0b7
+  PolyvBusinessSDK: 0828af22db5b38344ea79c4b755b6a7432c7560e
+  PolyvCloudClassSDK: 10fe2128c9c9393d557ed60de0e6e4465da9e705
+  PolyvFoundationSDK: 63d7a2e012a215d8418dc6fea0eb0e7282748a8d
+  PolyvIJKPlayer: 5b9dd60ee6f85285bf5f5a6972a687ee574824c4
+  Qiniu: 2e59cdc6e522f5d1bb81443a5b154eb87af7c288
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SDCycleScrollView: 884b88f0266dd4708a0e1934975c69cb971707b1
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  Socket.IO-Client-Swift: 21e6a8a23a7d367d5ddfab6cbbd3c679cf3c25d6
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+  SuperPlayer: e3e5e34e32e2acf9f5510e98e1a5629363a8314a
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TBScrollViewEmpty: de7ebffab698891cb3dcc48a3e003ef86815ddb3
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXLiteAVSDK_Player: a5bdf0d10ba2448d6ef00f8a42636465ce7d555b
+  TYAttributedLabel: cb8fc910d97eb5224936d4f692a78e042af691b2
+  TZImagePickerController: ea3e906af8caa7088f612ad673feb73cc6aa6bfc
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  UMAPM: e7674c15fd583c3d9bf2e469cf40002f61bf2b97
+  UMCCommonLog: 9b7ddde5d14a52fc1986ba5ac3121b8b2f433638
+  UMCommon: 37fe35f498e92cf57bbb06a086f02915fc35f211
+  UMDevice: 053478c4b4d7292f31f0a275c227d3c4007a5571
+  UMShare: b66d969a5cc7bd9eeffad6ad2ccd8f860d6216dd
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  ZFPlayer: 0bba41909128ec12b6abbd769ec9f1c5ccd94af5
+
+PODFILE CHECKSUM: d0a492329afafeb82b95080d927934875bad48a9
+
+COCOAPODS: 1.10.2

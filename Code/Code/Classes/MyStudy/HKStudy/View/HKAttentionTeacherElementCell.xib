@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HKAttentionTeacherElementCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yAz-dD-ofA">
+                        <rect key="frame" x="10" y="5.5" width="60" height="60"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sM-DR-GDp">
+                        <rect key="frame" x="10" y="5.5" width="60" height="60"/>
+                        <color key="backgroundColor" red="1" green="0.30588235289999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LGA-wp-Vrb">
+                        <rect key="frame" x="12.5" y="8" width="55" height="55"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看更多" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8r2-aJ-hE4">
+                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.6588235294117647" green="0.6705882352941176" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plv_img_default_avatar.png" translatesAutoresizingMaskIntoConstraints="NO" id="gZM-G6-3eB">
+                                <rect key="frame" x="0.0" y="0.0" width="55" height="55"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dL0-Qx-qSr">
+                                <rect key="frame" x="42" y="42" width="10" height="10"/>
+                                <color key="backgroundColor" red="1" green="0.30588235289999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="10" id="92A-rn-6rA"/>
+                                    <constraint firstAttribute="height" constant="10" id="m2Y-Qg-IKf"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8r2-aJ-hE4" firstAttribute="bottom" secondItem="gZM-G6-3eB" secondAttribute="bottom" id="1Aa-VV-h7x"/>
+                            <constraint firstAttribute="bottom" secondItem="dL0-Qx-qSr" secondAttribute="bottom" constant="3" id="3jD-TZ-TmX"/>
+                            <constraint firstAttribute="bottom" secondItem="gZM-G6-3eB" secondAttribute="bottom" id="4an-fL-8lr"/>
+                            <constraint firstAttribute="trailing" secondItem="dL0-Qx-qSr" secondAttribute="trailing" constant="3" id="B33-xd-j6F"/>
+                            <constraint firstItem="8r2-aJ-hE4" firstAttribute="top" secondItem="gZM-G6-3eB" secondAttribute="top" id="Imv-M6-vzi"/>
+                            <constraint firstAttribute="trailing" secondItem="gZM-G6-3eB" secondAttribute="trailing" id="Jz0-1e-A28"/>
+                            <constraint firstItem="8r2-aJ-hE4" firstAttribute="leading" secondItem="gZM-G6-3eB" secondAttribute="leading" id="Kyd-qR-UnK"/>
+                            <constraint firstItem="8r2-aJ-hE4" firstAttribute="trailing" secondItem="gZM-G6-3eB" secondAttribute="trailing" id="LEo-qg-Ea3"/>
+                            <constraint firstItem="gZM-G6-3eB" firstAttribute="top" secondItem="LGA-wp-Vrb" secondAttribute="top" id="OFY-Py-fCd"/>
+                            <constraint firstAttribute="width" secondItem="LGA-wp-Vrb" secondAttribute="height" id="TVD-01-ONg"/>
+                            <constraint firstAttribute="width" constant="55" id="c6k-RT-yb2"/>
+                            <constraint firstItem="gZM-G6-3eB" firstAttribute="leading" secondItem="LGA-wp-Vrb" secondAttribute="leading" id="oD3-xd-nC7"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="泡芙胖胖" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5K-Do-2ri">
+                        <rect key="frame" x="5" y="73" width="70" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="直播中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvr-mQ-Q5d">
+                        <rect key="frame" x="20" y="54" width="40" height="16"/>
+                        <color key="backgroundColor" red="1" green="0.30588235289999999" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="ptk-YA-UqW"/>
+                            <constraint firstAttribute="width" constant="40" id="vQ1-Ib-eka"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="h5K-Do-2ri" firstAttribute="top" secondItem="LGA-wp-Vrb" secondAttribute="bottom" constant="10" id="06D-uz-GnC"/>
+                <constraint firstItem="1sM-DR-GDp" firstAttribute="top" secondItem="LGA-wp-Vrb" secondAttribute="top" constant="-2.5" id="B4n-dN-uB7"/>
+                <constraint firstItem="rvr-mQ-Q5d" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="DPx-Py-lAI"/>
+                <constraint firstAttribute="trailing" secondItem="h5K-Do-2ri" secondAttribute="trailing" constant="5" id="FIS-Uo-2yb"/>
+                <constraint firstItem="yAz-dD-ofA" firstAttribute="top" secondItem="1sM-DR-GDp" secondAttribute="top" id="Hcx-AU-7Vu"/>
+                <constraint firstItem="yAz-dD-ofA" firstAttribute="trailing" secondItem="1sM-DR-GDp" secondAttribute="trailing" id="Pwo-z2-nnt"/>
+                <constraint firstItem="LGA-wp-Vrb" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="RIK-EN-pdI"/>
+                <constraint firstItem="h5K-Do-2ri" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="RtY-b0-LjM"/>
+                <constraint firstItem="1sM-DR-GDp" firstAttribute="bottom" secondItem="LGA-wp-Vrb" secondAttribute="bottom" constant="2.5" id="Saf-c4-51r"/>
+                <constraint firstItem="h5K-Do-2ri" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="TeL-89-SsU"/>
+                <constraint firstItem="1sM-DR-GDp" firstAttribute="leading" secondItem="LGA-wp-Vrb" secondAttribute="leading" constant="-2.5" id="VOt-yw-74z"/>
+                <constraint firstItem="yAz-dD-ofA" firstAttribute="leading" secondItem="1sM-DR-GDp" secondAttribute="leading" id="XBv-PP-zEn"/>
+                <constraint firstItem="LGA-wp-Vrb" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="d31-cO-Kyr"/>
+                <constraint firstItem="h5K-Do-2ri" firstAttribute="top" secondItem="rvr-mQ-Q5d" secondAttribute="bottom" constant="3" id="jL8-TY-8kS"/>
+                <constraint firstItem="yAz-dD-ofA" firstAttribute="bottom" secondItem="1sM-DR-GDp" secondAttribute="bottom" id="lTg-EY-TLP"/>
+                <constraint firstItem="1sM-DR-GDp" firstAttribute="trailing" secondItem="LGA-wp-Vrb" secondAttribute="trailing" constant="2.5" id="pDf-qV-Mr6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="343" height="463"/>
+            <connections>
+                <outlet property="boderView" destination="yAz-dD-ofA" id="fhO-tO-hRf"/>
+                <outlet property="headerImgView" destination="gZM-G6-3eB" id="aN4-fa-13A"/>
+                <outlet property="moreLabel" destination="8r2-aJ-hE4" id="hm1-dA-mul"/>
+                <outlet property="nameLabel" destination="h5K-Do-2ri" id="H6o-hW-QuT"/>
+                <outlet property="redInnerRingView" destination="1sM-DR-GDp" id="Zue-0y-nv7"/>
+                <outlet property="redPointView" destination="dL0-Qx-qSr" id="75E-bG-cNN"/>
+                <outlet property="signLabel" destination="rvr-mQ-Q5d" id="xhT-y2-Cww"/>
+            </connections>
+            <point key="canvasLocation" x="343.47826086956525" y="145.98214285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="plv_img_default_avatar.png" width="35" height="35"/>
+    </resources>
+</document>

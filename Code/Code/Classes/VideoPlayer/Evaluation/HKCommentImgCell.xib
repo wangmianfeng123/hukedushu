@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HKCommentImgCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_add_upload_2_31" translatesAutoresizingMaskIntoConstraints="NO" id="iSk-Gq-zlf">
+                        <rect key="frame" x="5" y="5" width="70" height="70"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TeS-5Z-IJ1">
+                        <rect key="frame" x="55" y="5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="ilw-lK-XWg"/>
+                            <constraint firstAttribute="width" secondItem="TeS-5Z-IJ1" secondAttribute="height" id="yPa-7J-VbM"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="ic_close_upload_2_31"/>
+                        <connections>
+                            <action selector="deleteBtnClick" destination="gTV-IL-0wX" eventType="touchUpInside" id="bZf-tx-Sh4"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iSk-Gq-zlf" secondAttribute="trailing" constant="5" id="HKm-5t-43t"/>
+                <constraint firstItem="iSk-Gq-zlf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="MbT-rd-MFc"/>
+                <constraint firstAttribute="bottom" secondItem="iSk-Gq-zlf" secondAttribute="bottom" constant="5" id="aKG-i5-FaW"/>
+                <constraint firstAttribute="trailing" secondItem="TeS-5Z-IJ1" secondAttribute="trailing" constant="5" id="dXO-jG-3bd"/>
+                <constraint firstItem="TeS-5Z-IJ1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="vSw-o4-9ip"/>
+                <constraint firstItem="iSk-Gq-zlf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="zCt-Wy-3qf"/>
+            </constraints>
+            <connections>
+                <outlet property="deleteBtn" destination="TeS-5Z-IJ1" id="0BR-sC-iXI"/>
+                <outlet property="imgV" destination="iSk-Gq-zlf" id="eR8-lJ-h2m"/>
+            </connections>
+            <point key="canvasLocation" x="-655" y="225"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_add_upload_2_31" width="111" height="111"/>
+        <image name="ic_close_upload_2_31" width="15" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  Code
+//
+//  Created by pg on 2017/3/17.
+//  Copyright © 2017年 pg. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//定义并导入CoCoaLumberJack框架
+//#define LOG_LEVEL_DEF ddLogLevel
+//#import <CocoaLumberjack.h>
+//
+//#ifdef DEBUG
+//#define DDLog(format, ...) DDLogError((@"[文件名:%s]" "[函数名:%s]" "[行号:%d]" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+//#else
+//#define DDLog(...);
+//#endif
+
+
+//// 日志输出
+//#ifdef DEBUG
+//#define DEBUG_Log(...) NSLog(__VA_ARGS__)
+//#else
+//#define DEBUG_Log(...)
+//#endif
+
+
+// 设置Dlog可以打印出类名,方法名,行数.
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+
+//通过DEBUG模式设置全局日志等级，DEBUG时为Verbose，所有日志信息都可以打印，否则Error，只打印
+//#ifdef DEBUG
+//static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
+//#else
+//static const DDLogLevel ddLogLevel = DDLogLevelError;
+//#endif
+
+
+//#ifdef DEBUG
+//static const int ddLogLevel = DDLogLevelVerbose;
+//#else
+//static const int ddLogLevel = DDLogLevelWarning;
+//#endif
+
+#endif /* PrefixHeader_pch */

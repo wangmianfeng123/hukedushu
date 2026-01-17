@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   ShopModelList.plist
+   Code
+
+   Created by pg on 2017/2/26.
+   Copyright (c) 2017年 pg. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+            <key>data</key>
+            <array>
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-1</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>1M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456316686552The.mp4</string>
+                    
+                </dict>
+                
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-2</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>20M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456480115661mtl.mp4</string>
+                    
+                </dict>
+                
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-3</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>30M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456665467509qingshu.mp4</string>
+                </dict>
+                
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-4</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>40M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456317490140jiyiyuetai_x264.mp4</string>
+                </dict>
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-5</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>50M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1455888619273255747085_x264.mp4</string>
+                </dict>
+                
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-6</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>60M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456734464766B(13).mp4</string>
+                </dict>
+                
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-7</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>70M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456653443902B.mp4</string>
+                </dict>
+                
+                <dict>
+                    <key>video_id</key>
+                    <string>5</string>
+                    <key>video_icon</key>
+                    <string>iconBg</string>
+                    <key>video_title</key>
+                    <string>PS-运动鞋海报海报-8</string>
+                    <key>video_category</key>
+                    <string>C4D</string>
+                    <key>video_size</key>
+                    <string>80M</string>
+                    <key>video_time</key>
+                    <string>20分10秒</string>
+                    <key>video_url</key>
+                    <string>http://baobab.wdjcdn.com/1456231710844S(24).mp4</string>
+                </dict>
+                
+            </array>
+    </dict>
+</plist>

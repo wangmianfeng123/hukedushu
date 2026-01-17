@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="HKCommunityBannerCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iEG-xA-G65">
+                        <rect key="frame" x="12" y="10" width="166.5" height="80"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myAlbum_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="ibg-se-RPO">
+                        <rect key="frame" x="12" y="10" width="166.5" height="80"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rgM-HV-ZRz">
+                        <rect key="frame" x="193.5" y="10" width="166.5" height="80"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myAlbum_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="AeP-vP-O5M">
+                        <rect key="frame" x="193.5" y="10" width="166.5" height="80"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="width" secondItem="ibg-se-RPO" secondAttribute="width" id="0R9-Lk-gDG"/>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="leading" secondItem="rgM-HV-ZRz" secondAttribute="leading" id="1h0-ba-UCA"/>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="top" secondItem="rgM-HV-ZRz" secondAttribute="top" id="4A5-ii-mgg"/>
+                    <constraint firstItem="ibg-se-RPO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="7ml-dm-nxD"/>
+                    <constraint firstItem="ibg-se-RPO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="BS4-Ga-hju"/>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="leading" secondItem="ibg-se-RPO" secondAttribute="trailing" constant="15" id="FEH-yq-crL"/>
+                    <constraint firstAttribute="bottom" secondItem="ibg-se-RPO" secondAttribute="bottom" constant="10" id="Gud-zo-UHk"/>
+                    <constraint firstItem="iEG-xA-G65" firstAttribute="bottom" secondItem="ibg-se-RPO" secondAttribute="bottom" id="MgN-UH-Y5q"/>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="bottom" secondItem="rgM-HV-ZRz" secondAttribute="bottom" id="Umg-GA-m9O"/>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="aB6-ml-msi"/>
+                    <constraint firstItem="AeP-vP-O5M" firstAttribute="trailing" secondItem="rgM-HV-ZRz" secondAttribute="trailing" id="e3Q-Am-XKC"/>
+                    <constraint firstAttribute="bottom" secondItem="AeP-vP-O5M" secondAttribute="bottom" constant="10" id="hni-BV-p83"/>
+                    <constraint firstItem="iEG-xA-G65" firstAttribute="leading" secondItem="ibg-se-RPO" secondAttribute="leading" id="qeK-oS-GRB"/>
+                    <constraint firstAttribute="trailing" secondItem="AeP-vP-O5M" secondAttribute="trailing" constant="15" id="s0U-rB-jzN"/>
+                    <constraint firstItem="iEG-xA-G65" firstAttribute="trailing" secondItem="ibg-se-RPO" secondAttribute="trailing" id="sZi-Pz-RjZ"/>
+                    <constraint firstItem="iEG-xA-G65" firstAttribute="top" secondItem="ibg-se-RPO" secondAttribute="top" id="tYl-6z-bZP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="leftBannerImg" destination="ibg-se-RPO" id="CGd-tS-jyS"/>
+                <outlet property="leftBgView" destination="iEG-xA-G65" id="UR3-0J-Pv2"/>
+                <outlet property="rightBannerImg" destination="AeP-vP-O5M" id="1to-Pv-Yrd"/>
+                <outlet property="rightBgView" destination="rgM-HV-ZRz" id="UXD-Py-irJ"/>
+            </connections>
+            <point key="canvasLocation" x="635.50724637681162" y="6.6964285714285712"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="myAlbum_shadow" width="50.5" height="50.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

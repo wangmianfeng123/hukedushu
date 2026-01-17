@@ -1,0 +1,22 @@
+{ "applinks": {
+    "apps": [],
+        "details":
+        [
+            {
+                "appID": "JJMF498F33.com.cainiu.HuKeWang",
+                "paths": ["*"]
+            }
+            ,
+            {
+                "appID": "YFX5C3C625.com.cainiu.HuKeWang",
+                "paths": [ "*" ]
+            },
+            {
+                "appID": "KXB3FE5K9N.com.cainiu.HuKeWang",
+                "paths": [ "*" ]
+            }
+        ]
+    }
+}
+
+

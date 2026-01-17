@@ -1,0 +1,114 @@
+{
+    
+    "errno" : "0",
+    "data" : {
+        "pageNum" : "1",
+        "pageSize" :  "10",
+        "array" : [
+                   {
+                   "ID" : "0",
+                   "left" : "1",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱已成为您的好友",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-03-20 09:00:02"
+                   },
+                   {
+                   "ID" : "2",
+                   "left" : "0",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱已成已成为大柱已已成已成为大柱已成为大已成已成为大柱已成为大已成已成为大王大柱已成已成为大柱已已成已成为大柱已成为大已成已成为大柱已成为大已成已成为大柱已成为大已成已成为大柱已成为大成为大柱已成为您的2222",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-03-20 09:12:02"
+                   
+                   },
+                   {
+                   "ID" : "3",
+                   "left" : "1",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱您的为您的好友3333",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-03-20 10:02:02"
+                   },
+                   {
+                   "ID" : "4",
+                   "left" : "0",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱成为大柱已柱已成为大柱已成为您的的好友4",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-04-20 10:15:02"
+                   
+                   },
+                   {
+                   "ID" : "5",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱已成为您的好友55555",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-04-22 12:01:02"
+                   
+                   },
+                   {
+                   "ID" : "6",
+                   "left" : "1",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱已成为您的好友66666",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-04-22 14:01:02"
+                   
+                   },
+                   {
+                   "ID" : "7",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱已成为您的好友777777",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-05-09 03:05:02"
+                   
+                   },
+                   {
+                   "ID" : "8",
+                   "userName" : "汤彬",
+                   "fromSource" : "虎课网",
+                   "usermsg" : "王大柱已成为您的好友8888",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-05-09 03:03:02"
+                   
+                   },
+                   {
+                   "ID" : "9",
+                   "left" : "1",
+                   "fromSource" : "虎课网",
+                   "userName" : "汤彬",
+                   "usermsg" : "王大柱已成为您的好友99999",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-05-09 03:01:02"
+                   
+                   },
+                   {
+                   "ID" : "10",
+                   "left" : "1",
+                   "fromSource" : "虎课网",
+                   "userName" : "汤彬",
+                   "usermsg" : "王大柱已成为您的好友10",
+                   "photo" : "http://img4.duitang.com/uploads/item/201510/05/20151005220742_ZCxKT.jpeg",
+                   "usermsgcreateDateStr" : "2017-05-12 01:01:02"
+                   
+                   }
+                   
+                   ]
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+}

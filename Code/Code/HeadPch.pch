@@ -1,0 +1,203 @@
+//
+//  HeadPch.pch
+//  Code
+//
+//  Created by pg on 16/3/8.
+//  Copyright © 2016年 pg. All rights reserved.
+//
+
+
+
+#ifndef HeadPch_pch
+#define HeadPch_pch
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "FWDefine.h"
+#import "CommonFunction.h"
+#import "UIButton+EnlargeEdge.h"
+#import "UIButton+ImageTitleSpace.h"
+#import "UILabel+Helper.h"
+#import "Masonry.h"
+#import "FWNetWorkServiceMediator.h"
+#import "MJRefresh.h"
+#import "AppConst.h"
+#import "HKAccountTool.h"
+
+#import "PrefixHeader.pch"
+#import "UIImageView+Helper.h"
+#import "BaseUrl.h"
+#import "RequestUrl.h"
+#import "FWNetWorkServiceMediator.h"
+//#import "JSONKit.h"
+#import "UIImageView+WebCache.h"
+
+#import "FWUserInfoContext.h"
+//#import "UIColor+tzbColor.h"
+#import "UINavigationBar+Awesome.h"
+#import "HukeDefine.h"
+#import "UIColor+SNFoundation.h"
+#import <UMCommon/UMCommon.h>
+#import <UMCommon/MobClick.h>
+#import "MBProgressHUD+Ali.h"
+
+#import "UserInfoServiceMediator.h"
+
+//#import <SDWebImage/FLAnimatedImageView+WebCache.h>
+#import <SDWebImage/SDWebImage.h>
+
+#import "UIView+HKExtension.h"
+
+#import <MJExtension/MJExtension.h>
+#import "HKEnumerate.h"
+
+// *****汤彬自定义高亮View*****
+#import "TBHightedLigthedBtn.h"
+#import "TBCollectionHighLightedCell.h"
+#import "TBHighLightedCell.h"
+#import "HKHttpTool.h"
+// *****汤彬自定义高亮View*****
+#import "NSObject+PerformAction.h"
+
+// *****汤彬 TBScrollViewEmpty*****
+#import <TBScrollViewEmpty/TBScrollViewEmpty.h>
+
+#import "UIImage+SNFoundation.h"
+//#import "YYAnimatedImageView+OLELayer.h"
+
+
+#import "HKRefreshTools.h"
+
+#import "HKPlayerLocalRateTool.h"
+
+#import "HKProgressHUD.h"
+
+#import "HKvipImage.h"
+
+#import "HKMsgDefine.h"
+
+#import "HKCommonRequest.h"
+
+#import "HKProgressHUD.h"
+
+#import "LEEAlert.h"
+
+#import "HKLoginTool.h"
+
+#import "HKAnimation.h"
+
+#import "HKNewUserGiftTool.h"
+
+#import <Lottie/Lottie.h>
+
+#import "HKPhotoBrowserTool.h"
+
+#import "HKWebTool.h"
+
+#import "UIViewController+HKHideNavShadowImage.h"
+
+#import "UIButton+Badge.h"
+
+#import "HKColorDefine.h"
+#import "HKALIYunLogManage.h"
+
+#import "UINavigationController+ZFNormalFullscreenPopGesture.h"
+
+#import "HKImagePickerController.h"
+
+#import "SafeObject.h"
+
+#import "HkNetworkManageCenter.h"
+
+#import "HomeServiceMediator.h"
+
+#import "UIButton+ImageTitleSpace.h"
+
+//#import "HKALIYunLogManage.h"
+
+
+//#import <NIMKit/NIMKit.h>11
+//
+//#import <NIMKit/NIMMessageCell.h>
+//
+//#import <NIMKit/NIMCellLayoutConfig.h>
+//
+//#import <NIMKit/NIMCellConfig.h>
+
+//#import "NTESGlobalMacro.h"
+
+#import "GKPlayer.h"
+#import "HKAlilogModel.h"
+#import "HKVideoPlayAliYunConfig.h"
+#import "HkChannelData.h"
+
+#import "HKPageInfoModel.h"
+
+#import "HKCashPay.h"
+
+#import <AlipaySDK/AlipaySDK.h>
+
+#import "WXApi.h"
+
+#import "HKH5PushToNative.h"
+
+#import "ZFHKNormalPlayerPlayRate.h"
+
+#import "UIColor+HKDM.h"
+
+#import "UIImage+HKDM.h"
+
+#import "UITableViewCell+HKDM.h"
+
+#import <PolyvCloudClassSDK/PLVLiveVideoConfig.h>
+#import <PolyvBusinessSDK/PolyvBusinessSDK.h>
+#import <PolyvCloudClassSDK/PLVLiveVideoAPI.h>
+
+#import <PolyvCloudClassSDK/PLVLiveVideoConfig.h>
+#import <PolyvCloudClassSDK/PLVVideoMarquee.h>
+
+#import <PolyvCloudClassSDK/PLVLivePlayerController.h>
+
+#import "NSMutableAttributedString+HKAttributed.h"
+
+#import "HKLivingPlayVC2.h"
+#import "PCCUtils.h"
+
+#import "UIFont+HK.h"
+
+#import "YYText.h"
+
+#import "HKDarkModelManger.h"
+
+#import "Code-Bridging-Header.h"
+
+#import <ReactiveObjC/ReactiveObjC.h>
+
+#import "UIView+SNFoundation.h"
+
+#import "DateChange.h"
+
+#import "HKCustomMarginLabel.h"
+#import "NSMutableDictionary+Addition.h"
+#import "HKLoadingImageTool.h"
+
+#endif
+
+
+// 111
+
+
+
+
+
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* HeadPch_pch */
